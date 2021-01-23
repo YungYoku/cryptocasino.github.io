@@ -2,7 +2,6 @@ let logged = false;
 
 function registration() {
     logged = true;
-    export{logged};
     let regBtn = document.querySelector("#regBtn");
     let email = document.querySelector("#emailReg");
     let nameReg = document.querySelector("#usernameReg");
