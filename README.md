@@ -1,1 +1,2 @@
-# cryptocasino
+# cryptocasino.github.io
+Crypto Casino
