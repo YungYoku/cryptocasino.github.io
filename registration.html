@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logInOrReg">
+            <a href="login.html">Войти</a>
+            <a href="registration.html">Зарегистрироваться</a>
+        </div>
+        <div id="logo">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="">
+            </a>
+        </div>
+        <div id="languageWrap">
+            <div id="language">
+                <button id="dropbtn">RU</button>
+                <div id="dropdown-content">
+                    <button>EN</button>
+                    <button>UK</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="registration">
+        <h2>Зарегистрироваться</h2>
+        <input id="usernameReg" type="text" placeholder="Имя пользователя">
+        <h3 id="usernameRegFale">Введите имя пользователя!</h3>
+        <input id="emailReg"  type="text" placeholder="Почта">
+        <h3 id="emailRegFale">Введите почту!</h3>
+        <input id="passwordReg"  type="password" placeholder="Пароль">
+        <h3 id="passwordRegFale">Введите пароль!</h3>
+        <input id="passwordRepeatReg"  type="password" placeholder="Подтвердите пароль">
+        <h3 id="passwordRepeatRegFale">Подтвердите пароль!</h3>
+        <a id="regBtn" href="#" onmouseover="registration()" onclick="registrationChecker()">Зарегистрироваться</a>
+    </section>
+
+    <script src="registration.js"></script>
+</body>
+
+</html>

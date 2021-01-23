@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logInOrReg">
+            <a href="login.html">Войти</a>
+            <a href="registration.html">Зарегистрироваться</a>
+        </div>
+        <div id="logo">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="">
+            </a>
+        </div>
+        <div id="languageWrap">
+            <div id="language">
+                <button id="dropbtn">RU</button>
+                <div id="dropdown-content">
+                    <button>EN</button>
+                    <button>UK</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="login">
+        <h2>Войти</h2>
+        <input id="usernameLogin" type="text" placeholder="Имя пользователя">
+        <h3 id="usernameLoginFale">Введите имя пользователя!</h3>
+        <input id="passwordLogin" type="password" placeholder="Пароль">
+        <h3 id="passwordLoginFale">Введите Пароль!</h3>
+        <a class="loginProblems" href="registration.html">Нет аккаунта? Зарегистрироваться</a>
+        <br>
+        <br>
+        <a class="loginProblems" href="#">Забыли пароль</a>
+        <br>
+        <a id="logBtn" href="#" onmouseover="login()" onclick="loginChecker()">Войти</a>
+    </section>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
