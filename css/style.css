@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     color: white;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -67,24 +68,14 @@ header {
 #languageWrap {
     min-width: 40px;
     text-align: end;
-    width: 20%;
+    width: 60px;
     position: relative;
-}
-#language {
-    display: inline;
-    transition: all 0.5s;
-}
-#logout img {
-    height: 60px;
 }
 #header__rightWrap {
     width: 20%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-#header__rightWrap img {
-    margin-left: 20px;
 }
 #dropbtn {
     display: inline;
@@ -97,6 +88,7 @@ header {
     width: 60px;
     display: inline-block;
     position: relative;
+    transition: all 0.5s;
 }
 #language:hover #dropdown-content {
     display: block;
@@ -389,7 +381,7 @@ header {
     font-style: italic;
 }
 #logout {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 #logout img {
     width: 40px;
