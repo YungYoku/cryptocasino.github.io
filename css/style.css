@@ -32,6 +32,7 @@ header {
     padding: 20px 3%;
     border-bottom: 1px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
+    backdrop-filter: blur(3px);
 }
 
 
@@ -92,6 +93,11 @@ header {
     cursor: pointer;
     font-size: 16px;
 }
+#language {
+    width: 60px;
+    display: inline-block;
+    position: relative;
+}
 #language:hover #dropdown-content {
     display: block;
     transition: all 0.5s;
@@ -105,15 +111,19 @@ header {
     cursor: pointer;
     border: 1px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
+    margin: 0 auto;
+    display: block;
 }
 #dropdown-content {
     display: none;
     position: absolute;
     right: 0;
     transition: all 0.5s;
+    width: 60px;
 }
 #dropdown-content button {
     display: block;
+    margin: auto;
 }
 
 #jackpot {
@@ -298,16 +308,19 @@ header {
     align-items: center;
 }
 #deposit a {
-    margin-right: 10px;
+    display: block;
+    margin-right: 5px;
 }
 #deposit a img {
     height: 40px;
     transition: all 0.3s;
-    box-shadow: 0 0 7px 1px #1396cb;
 }
 #deposit a img:hover {
     transform: scale(1.1);
     transition: all 0.3s;
+}
+#deposit a:nth-child(1) {
+    margin-right: 10px;
 }
 #wallet {
     min-width: 115px;
@@ -375,12 +388,15 @@ header {
     visibility: hidden;
     font-style: italic;
 }
+#logout {
+    margin-left: 10px;
+}
 #logout img {
     width: 40px;
     height: 50px;
 }
 #setting {
-    margin-right: 10px;
+    margin: 0 15px 0 auto;
 }
 #setting img {
     height: 50px;
