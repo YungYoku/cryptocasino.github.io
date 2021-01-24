@@ -8,7 +8,7 @@ function registration() {
     let passReg = document.querySelector("#passwordReg");
     let passRepeatReg = document.querySelector("#passwordRepeatReg");
     if(email.value !== '' && nameReg.value !== '' && passReg.value !== '' && passRepeatReg.value !== ''&& passReg.value === passRepeatReg.value) {
-        regBtn.href = 'index.html';
+        regBtn.href = 'activeLogin.html';
     }
 }
 function registrationChecker() {
