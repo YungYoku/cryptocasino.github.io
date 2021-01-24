@@ -405,6 +405,7 @@ header {
     position: absolute;
     left: 5%;
     top: 30px;
+    z-index: 3;
 }
 #backToMenu img {
     width: 140px;
@@ -414,12 +415,108 @@ header {
     width: 160px;
     transition: all 0.3s;
 }
-#game_1_window {
+#game_1_window, #walletNExchanger {
     width: 90%;
-    height: 700px;
     margin: 40px auto 0 auto;
     border: 1px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
+    backdrop-filter: blur(2px);
+}
+
+#walletNExchanger__wallet {
+    padding: 0 5%;
+}
+#walletNExchanger {
+    display: grid;
+    grid-template: 50% 50% / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 15px 0;
+}
+#walletNExchanger__wallet__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 7px 1px #1396cb;
+    padding: 10px;
+    margin: 0 auto 50px auto;
+    width: 250px;
+    border-radius: 15px;
+}
+#walletNExchanger__wallet__wrap img {
+    height: 35px;
+}
+#mainCoins div, #casinoCoin {
+    width: 70%;
+    box-shadow: 0 0 7px 1px #1396cb;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mainCoins img {
+    height: 25px;
+}
+#casinoCoin {
+    width: 90%;
+}
+#casinoCoin {
+    height: 80px;
+}
+#casinoCoin img {
+    height: 60px;
+}
+#walletNExchanger h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 15px;
+}
+#walletNExchanger__exchanger {
+    width: 100%;
+}
+#walletNExchanger__exchanger select {
+    width: 30%;
+    background-color: transparent;
+    box-shadow: 0 0 7px 1px #1396cb;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+#walletNExchanger__exchanger input {
+    margin: 30px 0;
+    width: 30%;
+    background-color: transparent;
+    box-shadow: 0 0 7px 1px #1396cb;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+#walletNExchanger__exchanger__result {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#coinsResult {
+    margin: 30px 0 30px 10px;
+    width: 30%;
+    height: 36px;
+    background-color: transparent;
+    box-shadow: 0 0 7px 1px #1396cb;
+    color: white;
+    border: none;
+    padding: 10px 0;
+}
+#walletNExchanger__exchanger button {
+    display: block;
+    width: calc(60% + 10px);
+    background-color: transparent;
+    box-shadow: 0 0 7px 1px #1396cb;
+    color: white;
+    border: none;
+    padding: 10px 0;
 }
 
 
