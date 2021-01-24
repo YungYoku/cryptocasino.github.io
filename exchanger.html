@@ -32,7 +32,7 @@
                 <div>NEO 0 <img src="imgs/depositPLus.png" alt=""></div>
                 <div>XEM 0 <img src="imgs/depositPLus.png" alt=""></div>
             </div>
-            
+
             <div id="casinoCoin">
                 <img src="imgs/casinocoin.png" alt="">
             </div>
@@ -40,33 +40,42 @@
 
 
         <div id="walletNExchanger__exchanger">
-            <select name="" id="">
-                <option value="">CC</option>
-                <option value="">BTC</option>
-                <option value="">ETH</option>
-                <option value="">LTC</option>
-                <option value="">XRP</option>
-                <option value="">BCH</option>
-                <option value="">EOS</option>
-                <option value="">NEO</option>
-                <option value="">XEM</option>
-            </select>
-            <select name="" id="">
-                <option value="">CC</option>
-                <option value="">BTC</option>
-                <option value="">ETH</option>
-                <option value="">LTC</option>
-                <option value="">XRP</option>
-                <option value="">BCH</option>
-                <option value="">EOS</option>
-                <option value="">NEO</option>
-                <option value="">XEM</option>
-            </select>
-            <div id="walletNExchanger__exchanger__result">
-                <input type="text">
-                <div id="coinsResult"></div>
+            <div id="walletNExchanger__exchanger__textWrap">
+                <h2>Обменник</h2><br>
             </div>
-            <button>Обменять</button>
+
+            <div id="coinPickerWrap__1">
+                <button id="coin_1" onclick="coinChanger(coin_1)">CC</button>
+                <button id="coin_2" onclick="coinChanger(coin_2)">BTC</button>
+                <button id="coin_3" onclick="coinChanger(coin_3)">ETH</button>
+                <button id="coin_4" onclick="coinChanger(coin_4)">LTC</button>
+                <button id="coin_5" onclick="coinChanger(coin_5)">XRP</button>
+                <button id="coin_6" onclick="coinChanger(coin_6)">BCH</button>
+                <button id="coin_7" onclick="coinChanger(coin_7)">EOS</button>
+                <button id="coin_8" onclick="coinChanger(coin_8)">NEO</button>
+                <button id="coin_9" onclick="coinChanger(coin_9)">XEM</button>
+            </div>
+
+            <div id="walletNExchanger__exchanger__resultWrap">
+                <div id="walletNExchanger__exchanger__result">
+                    <input type="text" placeholder="Введите количество валюты для перевода">
+                    <img src="imgs/arrow.png" alt="">
+                    <div id="coinsResult"></div>
+                </div>
+                <button>Обменять</button>
+            </div>
+
+            <div id="coinPickerWrap__2">
+                <button id="coin_1" onclick="coinChanger(coin_1)">CC</button>
+                <button id="coin_2" onclick="coinChanger(coin_2)">BTC</button>
+                <button id="coin_3" onclick="coinChanger(coin_3)">ETH</button>
+                <button id="coin_4" onclick="coinChanger(coin_4)">LTC</button>
+                <button id="coin_5" onclick="coinChanger(coin_5)">XRP</button>
+                <button id="coin_6" onclick="coinChanger(coin_6)">BCH</button>
+                <button id="coin_7" onclick="coinChanger(coin_7)">EOS</button>
+                <button id="coin_8" onclick="coinChanger(coin_8)">NEO</button>
+                <button id="coin_9" onclick="coinChanger(coin_9)">XEM</button>
+            </div>
         </div>
     </div>
 
