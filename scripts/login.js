@@ -6,7 +6,7 @@ function login() {
     let nameLogin = document.querySelector("#usernameLogin");
     let passLogin = document.querySelector("#passwordLogin");
     if(nameLogin.value !== '' && passLogin.value !== '') {
-        logBtn.href = 'index.html';
+        logBtn.href = 'activeLogin.html';
     }
 }
 function loginChecker() {
