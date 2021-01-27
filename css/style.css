@@ -444,7 +444,16 @@ header {
     border-radius: 15px;
     box-shadow: 0 0 7px 1px #1396cb;
 }
-#walletNExchanger__wallet__wrap img {
+#walletNExchanger__wallet__wrap__wallet {
+    height: 35px;
+    margin-right: 10px;
+}
+#walletNExchanger__wallet__wrap__refresh {
+    height: 20px;
+    transform: translate(10px, 15px);
+    transition: all 1s;
+}
+#walletNExchanger__wallet__wrap__deposit {
     margin-left: 10px;
     height: 35px;
 }
