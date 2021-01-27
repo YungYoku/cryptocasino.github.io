@@ -531,9 +531,9 @@ header {
     top: 30px;
     transition: all 1s;
 }
-#walletNExchanger__exchanger__setting:hover {
-    transition: all 1s;
-    transform: rotate(360deg);
+#walletNExchanger__exchanger__setting a {
+    display: inline-block;
+    margin-right: 10px;
 }
 #walletNExchanger__exchanger__textWrap {
     grid-area: Exchanger__text;
