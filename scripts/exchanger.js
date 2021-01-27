@@ -11,3 +11,13 @@ function coinChanger2(coin) {
     coin.style.boxShadow = "0 0 7px 2px #3aeb7e";
     tempo2 = coin;
 }
+
+let refresh = document.querySelector("#walletNExchanger__wallet__wrap__refresh");
+function refreshRotate() {
+    refresh.style.transition = "all 1s";
+    refresh.style.transform = "translate(10px, 15px) rotate(360deg)";
+    setTimeout(() => {
+        refresh.style.transition = "none";
+        refresh.style.transform = "translate(10px, 15px)";
+    }, 1000);
+}
