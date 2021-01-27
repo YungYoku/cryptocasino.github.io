@@ -21,7 +21,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 
@@ -29,7 +29,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 3%;
+    padding: 10px 3%;
     border-bottom: 1px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
     backdrop-filter: blur(3px);
@@ -125,15 +125,15 @@ header {
 }
 #jackpotImg {
     display: block;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 #jackpotMoney {
     display: block;
-    min-width: 200px;
-    width: 50%;
+    min-width: 160px;
+    width: 40%;
     max-width: 700px;
-    height: 200px;
+    height: 180px;
     margin: 0 auto;
     text-align: center;
     border-top: none;
@@ -528,7 +528,7 @@ header {
 #walletNExchanger__exchanger__setting {
     position: absolute;
     right: 30px;
-    top: 30px;
+    top: 40px;
     transition: all 1s;
 }
 #walletNExchanger__exchanger__setting a {
@@ -548,18 +548,19 @@ header {
     top: -45px;
     opacity: 0;
     transition: all 0.3s;
+    font-size: 16px;
 }
 #walletNExchanger__exchanger__setting__deposit__h3 {
-    left: -25px;
+    left: -20px;
     opacity: 0;
 }
 #walletNExchanger__exchanger__setting__withdraw__h3 {
-    left: -20px;
+    left: -15px;
     opacity: 0;
 }
 #walletNExchanger__exchanger__setting__currentPrice:hover #walletNExchanger__exchanger__setting__currentPrice__h3, #walletNExchanger__exchanger__setting__deposit:hover #walletNExchanger__exchanger__setting__deposit__h3, #walletNExchanger__exchanger__setting__withdraw:hover #walletNExchanger__exchanger__setting__withdraw__h3 {
     opacity: 1;
-    top: -25px;
+    top: -20px;
     transition: all 0.3s;
 }
 #walletNExchanger__exchanger__textWrap {
