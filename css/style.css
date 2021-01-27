@@ -234,6 +234,7 @@ header {
     font-size: 24px;
     width: 400px;
     box-shadow: 0 0 7px 1px #1396cb;
+    backdrop-filter: blur(2px);
 }
 #gamesSection label input:focus {
     border: 1px solid blue;
@@ -254,6 +255,7 @@ header {
     box-shadow: 0 0 7px 1px #1396cb;
     transition: all 0.3s;
     display: block;
+    backdrop-filter: blur(2px);
 }
 #gamesSection__div a:hover {
     transform: scale(1.05);
@@ -301,6 +303,10 @@ header {
     display: flex;
     align-items: center;
 }
+#deposit__ava img {
+    display: block;
+    border-radius: 50%;
+}
 #deposit a {
     display: block;
     margin-right: 5px;
@@ -313,13 +319,13 @@ header {
     transform: scale(1.1);
     transition: all 0.3s;
 }
-#deposit a:nth-child(1) {
-    margin-right: 10px;
+#deposit a:nth-child(1) img {
+    height: 60px;
 }
 #wallet {
     min-width: 115px;
     height: 39px;
-    margin-left: 10px;
+    margin: 0 10px;
     color: white;
     padding: 10px;
     border: 1px solid #1396cb;
@@ -416,7 +422,7 @@ header {
     transition: all 0.3s;
 }
 #game_1_window {
-    height: 70vh;
+    height: 80vh;
 }
 #game_1_window, #walletNExchanger {
     width: 90%;
