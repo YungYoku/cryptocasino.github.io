@@ -415,6 +415,9 @@ header {
     width: 160px;
     transition: all 0.3s;
 }
+#game_1_window {
+    height: 70vh;
+}
 #game_1_window, #walletNExchanger {
     width: 90%;
     margin: 40px auto 0 auto;
@@ -440,7 +443,7 @@ header {
     justify-content: flex-end;
     padding: 10px;
     margin: 5px 0 50px auto;
-    float: right;
+    float: left;
     border-radius: 15px;
     box-shadow: 0 0 7px 1px #1396cb;
 }
@@ -456,6 +459,11 @@ header {
 #walletNExchanger__wallet__wrap__deposit {
     margin-left: 10px;
     height: 35px;
+    transition: all 0.3s;
+}
+#walletNExchanger__wallet__wrap:hover #walletNExchanger__wallet__wrap__deposit {
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 #mainCoins div, #casinoCoin {
     width: 50%;
@@ -498,6 +506,16 @@ header {
         'Exchanger__text Exchanger__text Exchanger__text'
         'Exchanger__coin1 Exchanger__swaper Exchanger__coin2';
     padding: 0 5%;
+}
+#walletNExchanger__exchanger__setting {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all 1s;
+}
+#walletNExchanger__exchanger__setting:hover {
+    transition: all 1s;
+    transform: rotate(360deg);
 }
 #walletNExchanger__exchanger__textWrap {
     grid-area: Exchanger__text;
