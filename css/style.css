@@ -437,6 +437,24 @@ header {
     align-items: center;
     padding: 15px 0;
 }
+#walletNExchanger__logo {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+#walletNExchanger__logo a {
+    width: 80px;
+    margin: auto;
+    display: block;
+    transition: all 0.3s;
+}
+#walletNExchanger__logo a img {
+    width: 80px;
+}
+#walletNExchanger__logo a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
 #walletNExchanger__wallet__wrap {
     display: flex;
     align-items: center;
