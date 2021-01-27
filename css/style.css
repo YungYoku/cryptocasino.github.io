@@ -440,7 +440,7 @@ header {
     justify-content: flex-end;
     padding: 10px;
     margin: 5px 0 50px auto;
-    width: 250px;
+    float: right;
     border-radius: 15px;
     box-shadow: 0 0 7px 1px #1396cb;
 }
@@ -449,7 +449,7 @@ header {
     height: 35px;
 }
 #mainCoins div, #casinoCoin {
-    width: 70%;
+    width: 50%;
     box-shadow: 0 0 7px 1px #1396cb;
     margin-top: 20px;
     padding: 10px;
@@ -458,11 +458,18 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+#mainCoins div img {
+    transition: all 0.3s;
+}
+#mainCoins div:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
 #mainCoins img {
     height: 25px;
 }
 #casinoCoin {
-    width: 90%;
+    width: 70%;
 }
 #casinoCoin {
     height: 80px;
@@ -568,11 +575,6 @@ header {
     border-radius: 15px;
     transition: all 0.3s;
     font-size: 20px;
-    outline: none;
-}
-#coinPickerWrap__1 button:focus, #coinPickerWrap__2 button:focus {
-    box-shadow: 0 0 7px 2px #3aeb7e;
-    animation: btnShadowJumper 3s infinite;
     outline: none;
 }
 #walletNExchanger__exchanger button:hover {
