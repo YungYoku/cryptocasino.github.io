@@ -535,6 +535,33 @@ header {
     display: inline-block;
     margin-right: 10px;
 }
+#walletNExchanger__exchanger__setting__currentPrice:hover, #walletNExchanger__exchanger__setting__deposit:hover, #walletNExchanger__exchanger__setting__withdraw:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+#walletNExchanger__exchanger__setting__currentPrice, #walletNExchanger__exchanger__setting__deposit, #walletNExchanger__exchanger__setting__withdraw {
+    transition: all 0.3s;
+}
+#walletNExchanger__exchanger__setting__currentPrice__h3, #walletNExchanger__exchanger__setting__deposit__h3, #walletNExchanger__exchanger__setting__withdraw__h3 {
+    color: white;
+    position: absolute;
+    top: -45px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+#walletNExchanger__exchanger__setting__deposit__h3 {
+    left: -25px;
+    opacity: 0;
+}
+#walletNExchanger__exchanger__setting__withdraw__h3 {
+    left: -20px;
+    opacity: 0;
+}
+#walletNExchanger__exchanger__setting__currentPrice:hover #walletNExchanger__exchanger__setting__currentPrice__h3, #walletNExchanger__exchanger__setting__deposit:hover #walletNExchanger__exchanger__setting__deposit__h3, #walletNExchanger__exchanger__setting__withdraw:hover #walletNExchanger__exchanger__setting__withdraw__h3 {
+    opacity: 1;
+    top: -25px;
+    transition: all 0.3s;
+}
 #walletNExchanger__exchanger__textWrap {
     grid-area: Exchanger__text;
 }
