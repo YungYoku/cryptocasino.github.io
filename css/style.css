@@ -399,10 +399,6 @@ header {
     height: 50px;
     margin: 0 15px 0 auto;
 }
-#settingWrap:hover #setting-droprown {
-    opacity: 1;
-    transition: all 0.3s;
-}
 #settingWrap:hover #setting {
     transform: rotate(360deg);
     transition: all 1s;
