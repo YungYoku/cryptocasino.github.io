@@ -1,3 +1,5 @@
+'use strict';
+
 function logChecker() {
     let backToMenu = document.querySelector("#backToMenu");
     if(getCookie("logged") === "true") {
