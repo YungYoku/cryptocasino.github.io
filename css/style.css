@@ -421,7 +421,7 @@ header {
     transition: all 0.3s;
 }
 #game_1_window {
-    height: 80vh;
+    height: 90vh;
 }
 #game_1_window, #walletNExchanger {
     width: 90%;
