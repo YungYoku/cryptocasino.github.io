@@ -394,17 +394,37 @@ header {
     width: 40px;
     height: 50px;
 }
-#setting {
+
+#settingWrap {
+    height: 50px;
     margin: 0 15px 0 auto;
 }
-#setting img {
+#settingWrap:hover #setting-droprown {
+    opacity: 1;
+    transition: all 0.3s;
+}
+#setting {
     height: 50px;
     transition: all 1s;
 }
-#setting img:hover {
+#setting:hover {
     transform: rotate(360deg);
     transition: all 1s;
 }
+#setting-droprown {
+    position: relative;
+    opacity: 0;
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+#setting-droprown img {
+    display: block;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
 #backToMenu {
     display: block;
     position: absolute;
