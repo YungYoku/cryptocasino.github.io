@@ -413,12 +413,40 @@ header {
     padding-top: 10px;
     transition: all 0.3s;
 }
+#setting-droprown div {
+    display: flex;
+    align-items: center;
+}
 #setting-droprown img {
-    display: block;
     height: 50px;
     border: none;
     border-radius: 50%;
     margin: 5px 0;
+}
+#setting-droprown__ava:hover + h3 {
+    opacity: 1;
+    transition: all 0.3s;
+    transform: translateX(15px);
+}
+#setting-droprown__wallet:hover + h3 {
+    opacity: 1;
+    transition: all 0.3s;
+    transform: translateX(0);
+}
+#setting-droprown__help:hover + h3 {
+    opacity: 1;
+    transition: all 0.3s;
+    transform: translateX(-5px);
+}
+#setting-droprown h3 {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    text-align: end;
+    right: -90px;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: translateX(30px);
 }
 
 #backToMenu {
