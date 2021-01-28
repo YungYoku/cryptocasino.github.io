@@ -1,5 +1,13 @@
-//import {logged} from '../registration.js';
-//console.log(logged);
+function logChecker() {
+    let backToMenu = document.querySelector("#backToMenu");
+    if(getCookie("logged") === "true") {
+        backToMenu.href = "activeLogin.html";
+    }
+    else {
+        backToMenu.href = "index.html";
+    }
+}
+
 let lang_1 = document.querySelector("#lang_1");
 let lang_2 = document.querySelector("#lang_2");
 let lang_3 = document.querySelector("#lang_3");

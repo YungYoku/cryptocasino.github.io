@@ -1,11 +1,9 @@
-let logged = false;
-
 function login() {
-    logged= true;
+    setCookie('logged', 'true', {secure: true, 'max-age': 3600});
     let logBtn = document.querySelector("#logBtn");
     let nameLogin = document.querySelector("#usernameLogin");
     let passLogin = document.querySelector("#passwordLogin");
-    if(nameLogin.value !== '' && passLogin.value !== '') {
+    if (nameLogin.value !== '' && passLogin.value !== '') {
         logBtn.href = 'activeLogin.html';
     }
 }
