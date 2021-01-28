@@ -413,9 +413,10 @@ header {
     padding-top: 10px;
     transition: all 0.3s;
 }
-#setting-droprown div {
+#setting-droprown div, #setting-droprown a {
     display: flex;
     align-items: center;
+    color: white;
 }
 #setting-droprown img {
     height: 50px;
