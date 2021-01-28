@@ -1,3 +1,5 @@
+'use strict';
+
 let tempo = document.querySelector("#coin_11");
 function coinChanger(coin) {
     tempo.style.boxShadow = "0 0 7px 1px #1396cb";

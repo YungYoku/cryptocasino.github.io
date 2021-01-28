@@ -1,3 +1,5 @@
+'use strict';
+
 let jackpotNum1 = document.querySelector("#jackpotMoney_num1");
 let jackpotNum2 = document.querySelector("#jackpotMoney_num2");
 let jackpotNum3 = document.querySelector("#jackpotMoney_num3");

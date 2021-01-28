@@ -1,3 +1,5 @@
+'use strict';
+
 function setCookie(name, value, options = {}) {
     options = {
         path: '/',

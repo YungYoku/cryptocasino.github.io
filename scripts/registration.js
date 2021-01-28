@@ -1,3 +1,5 @@
+'use strict';
+
 function registration() {
     setCookie('logged', 'true', {secure: true, 'max-age': 3600});
     let regBtn = document.querySelector("#regBtn");

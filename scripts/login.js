@@ -1,3 +1,5 @@
+'use strict';
+
 function login() {
     setCookie('logged', 'true', {secure: true, 'max-age': 3600});
     let logBtn = document.querySelector("#logBtn");
