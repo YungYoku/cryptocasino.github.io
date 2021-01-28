@@ -403,12 +403,12 @@ header {
     opacity: 1;
     transition: all 0.3s;
 }
-#setting {
-    height: 50px;
+#settingWrap:hover #setting {
+    transform: rotate(360deg);
     transition: all 1s;
 }
-#setting:hover {
-    transform: rotate(360deg);
+#setting {
+    height: 50px;
     transition: all 1s;
 }
 #setting-droprown {
