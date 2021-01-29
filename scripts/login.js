@@ -6,6 +6,7 @@ function login() {
     let nameLogin = document.querySelector("#usernameLogin");
     let passLogin = document.querySelector("#passwordLogin");
     if (nameLogin.value !== '' && passLogin.value !== '') {
+        setCookie('name', nameLogin.value, {secure: true, 'max-age': 3600});
         logBtn.href = 'activeLogin.html';
     }
 }
