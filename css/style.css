@@ -748,6 +748,7 @@ header {
     padding: 10px;
     border-radius: 20px;
     font-size: 38px;
+    backdrop-filter: blur(2px);
 }
 #cabinetInfo__photoAndName__photo {
     text-align: center;
