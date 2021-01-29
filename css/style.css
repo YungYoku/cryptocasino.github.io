@@ -785,11 +785,14 @@ header {
 #personalAccountInfo, #personalInfo, #cabinetInfo__security, #cabinetInfo__help {
     padding-top: 30px;
 }
-#personalAccountInfo h3, #personalInfo h3, #cabinetInfo__security h3, #cabinetInfo__help h3 {
+#personalAccountInfo h3, #personalInfo h3, #cabinetInfo__security h3 {
     border: 3px solid white;
     padding: 10px;
     border-radius: 20px;
     display: inline;
+    font-size: 40px;
+}
+#cabinetInfo__help h3 {
     font-size: 40px;
 }
 #personalAccountInfo h4, #personalInfo h4, #cabinetInfo__security h4 {
@@ -811,6 +814,18 @@ header {
 #personalAccountInfo__walletOpener img, #personalInfo__deposit img, #personalInfo__minus img, #personalInfo__history img {
     margin-left: 15px;
     height: 40px;
+}
+#cabinetInfo__help__wrap {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#cabinetInfo__help__wrap img {
+    height: 50px;
+    margin-left: 10px;
 }
 
 @media (max-width: 1200px) {
