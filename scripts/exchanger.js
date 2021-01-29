@@ -23,3 +23,19 @@ function refreshRotate() {
         refresh.style.transform = "translate(10px, 15px)";
     }, 1000);
 }
+
+
+
+
+
+
+
+// function Get(Url){
+//     let Httpreq = new XMLHttpRequest();
+//     Httpreq.open("GET", Url, false);
+//     Httpreq.send(null);
+//     return Httpreq.responseText;          
+// }
+
+// let json_obj = JSON.parse(Get("http://api.bitcoincharts.com/v1/markets.json"));
+// console.log(json_obj);
