@@ -26,6 +26,10 @@ body {
 
 header {
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     align-items: center;
     justify-content: space-between;
     padding: 10px 3%;
@@ -120,6 +124,7 @@ header {
 }
 
 #jackpot {
+    margin-top: 106px;
     width: 100%;
 }
 #jackpotImg {
