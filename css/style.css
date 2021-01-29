@@ -795,7 +795,7 @@ header {
 #cabinetInfo__help h3 {
     font-size: 40px;
 }
-#personalAccountInfo h4, #personalInfo h4, #cabinetInfo__security h4 {
+#personalAccountInfo h4,#personalAccountInfo a, #personalInfo h4, #cabinetInfo__security h4 {
     font-size: 24px;
     font-weight: 400;
     margin: 15px 0 15px 0;
@@ -809,11 +809,29 @@ header {
 #personalAccountInfo__walletOpener, #personalInfo__deposit, #personalInfo__minus, #personalInfo__history {
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    transition: all 0.3s;
+}
+#personalInfo__deposit {
+    margin: 15px 0 5px 0;
+}
+#personalAccountInfo__walletOpener a:hover + img, #personalAccountInfo__walletOpener a:hover, #personalInfo__deposit a:hover + img, #personalInfo__deposit h4:hover, #personalInfo__minus h4:hover + img, #personalInfo__minus h4:hover, #personalInfo__history h4:hover + img, #personalInfo__history h4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+#personalAccountInfo__walletOpener img:hover, #personalAccountInfo__walletOpener img:hover, #personalInfo__deposit img:hover, #personalInfo__minus img:hover, #personalInfo__history img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 #personalAccountInfo__walletOpener img, #personalInfo__deposit img, #personalInfo__minus img, #personalInfo__history img {
     margin-left: 15px;
     height: 40px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#personalAccountInfo__walletOpener a, #personalInfo__deposit h4, #personalInfo__minus h4, #personalInfo__history h4 {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: white;
 }
 #cabinetInfo__help__wrap {
     display: flex;
