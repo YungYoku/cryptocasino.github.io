@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    outline: none;
     box-sizing: border-box;
     font-family: 'ExtendedFont', sans-serif;
 }
@@ -505,6 +506,7 @@ header {
 }
 #walletNExchanger__logo a img {
     width: 100px;
+    z-index: 3;
 }
 #walletNExchanger__logo a:hover {
     transform: scale(1.1);
@@ -851,6 +853,140 @@ header {
     margin-left: 10px;
 }
 
+
+#cryptoRate {
+    width: 100%;
+    display: grid;
+    grid-template: 600px / 4fr 3fr;
+    padding: 30px 5%;
+}
+#cryptoRate__Table {
+    display: grid;
+    grid-template: 40px 70px 70px 70px 70px 70px 70px 70px 70px / 1fr 3fr 3fr 3fr;
+    border-radius: 40px;
+    font-size: 30px;
+    box-shadow: 0 0 7px 1px #1396cb;
+}
+#cryptoRate__Table div {
+    border: 2px solid #1396cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cryptoRate__Table div:nth-child(1), #cryptoRate__Table div:nth-child(2), #cryptoRate__Table div:nth-child(3), #cryptoRate__Table div:nth-child(4) {
+    border: none;
+}
+#cryptoRate__Table div:nth-child(5) {
+    border-radius: 40px 0 0 0;
+}
+#cryptoRate__Table div:nth-child(8) {
+    border-radius: 0 40px 0 0;
+}
+#cryptoRate__Table div:nth-child(33) {
+    border-radius: 0 0 0 40px;
+}
+#cryptoRate__Table div:nth-child(36) {
+    border-radius: 0 0 40px 0;
+}
+#cryptoRate__TradeInfo {
+    height: 600px;
+    width: 90%;
+    border: 2px solid #1396cb;
+    box-shadow: 0 0 7px 1px #1396cb;
+    border-radius: 40px;
+    margin: 0 0 0 auto;
+    padding: 30px;
+}
+
+
+#cryptoRate__TradeInfo__Pick__dropbtn {
+    display: inline;
+    padding: 10px;
+    border: 1px solid #1396cb;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 4;
+    position: relative;
+}
+.cryptoRate__TradeInfo__Wrap {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 43px;
+}
+#cryptoRate__TradeInfo__Pick {
+    width: 60px;
+    height: 43px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s;
+    margin: 0 40px 0 0;
+}
+#cryptoRate__TradeInfo__Pick:hover #cryptoRate__TradeInfo__Pick__dropdown-content {
+    display: block;
+    transition: all 0.5s;
+}
+#cryptoRate__TradeInfo__Pick button {
+    background-color: #1c1d1f;
+    outline: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #1396cb;
+    box-shadow: 0 0 7px 1px #1396cb;
+    margin: 0 auto;
+    display: block;
+}
+#cryptoRate__TradeInfo__Pick__dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    width: 60px;
+}
+#cryptoRate__TradeInfo__Pick__dropdown-content button {
+    display: block;
+    margin: auto;
+    z-index: 5;
+    position: relative;
+}
+#cryptoRate__TradeInfo input {
+    height: 43px;
+    outline: none;
+    border: 2px solid #1396cb;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    width: 60%;
+    padding-left: 6px;
+}
+#cryptoRate__TradeInfo__Pick__Result, #cryptoRate__TradeInfo__Wrap__Result2 {
+    height: 43px;
+    outline: none;
+    border: 2px solid #1396cb;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    width: 60%;
+    padding: 6px;
+}
+#cryptoRate__TradeInfo__Wrap__CC {
+    display: inline;
+    height: 43px;
+    width: 58.25px;
+    margin-right: 40px;
+    padding: 10px;
+    border: 1px solid #1396cb;
+    box-shadow: 0 0 7px 1px #1396cb;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 4;
+    position: relative;
+}
+
 @media (max-width: 1200px) {
     #gamesSection__div {
         grid-template: 200px 200px 200px/ 1fr 1fr;
@@ -861,3 +997,4 @@ header {
         font-size: 26px;
     }
 }
+GG
