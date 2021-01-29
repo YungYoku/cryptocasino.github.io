@@ -1,0 +1,46 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 152 152">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Безымянный_градиент_29);
+      }
+
+      .cls-2 {
+        fill: #1396cb;
+      }
+
+      .cls-3 {
+        stroke: #1396cb;
+        stroke-miterlimit: 10;
+        fill: url(#Безымянный_градиент_14);
+      }
+
+      .cls-4 {
+        opacity: 0.2;
+      }
+
+      .cls-5 {
+        fill: url(#Безымянный_градиент_29-2);
+      }
+    </style>
+    <linearGradient id="Безымянный_градиент_29" data-name="Безымянный градиент 29" x1="97.5" y1="28.5" x2="51.5" y2="28.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fff71"/>
+      <stop offset="1" stop-color="aqua"/>
+      <stop offset="1" stop-color="#02fcf8"/>
+    </linearGradient>
+    <linearGradient id="Безымянный_градиент_14" data-name="Безымянный градиент 14" x1="80.92" y1="99.81" x2="147.43" y2="99.81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="1" stop-color="#29abe2"/>
+    </linearGradient>
+    <linearGradient id="Безымянный_градиент_29-2" x1="151.5" y1="76" x2="0.5" y2="76" xlink:href="#Безымянный_градиент_29"/>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="74.5" cy="28.5" r="23"/>
+    <path class="cls-2" d="M114.5,11A22.5,22.5,0,1,1,92,33.5,22.52,22.52,0,0,1,114.5,11m0-1A23.5,23.5,0,1,0,138,33.5,23.5,23.5,0,0,0,114.5,10Z" transform="translate(-40 -5)"/>
+  </g>
+  <path class="cls-3" d="M85.51,53.12c-8.74,12.07-2.82,56.12,0,93.38h57.7c2.91-37.36,7.83-79,0-93.38Q112.07,70.64,85.51,53.12Z" transform="translate(-40 -5)"/>
+  <g class="cls-4">
+    <rect class="cls-5" x="0.5" y="0.5" width="151" height="151"/>
+    <path class="cls-2" d="M191,6V156H41V6H191m1-1H40V157H192V5Z" transform="translate(-40 -5)"/>
+  </g>
+</svg>
