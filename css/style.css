@@ -860,6 +860,7 @@ header {
     grid-template: 600px / 4fr 3fr;
     align-items: center;
     padding: 30px 5%;
+    overflow: hidden;
 }
 #cryptoRate__Table {
     display: grid;
@@ -898,6 +899,12 @@ header {
     border-radius: 40px;
     margin: 0 0 0 auto;
     padding: 30px;
+    position: relative;
+}
+#cryptoRate__TradeInfo__Name {
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 100px);
 }
 
 
