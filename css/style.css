@@ -858,6 +858,7 @@ header {
     width: 100%;
     display: grid;
     grid-template: 600px / 4fr 3fr;
+    align-items: center;
     padding: 30px 5%;
 }
 #cryptoRate__Table {
@@ -889,7 +890,8 @@ header {
     border-radius: 0 0 40px 0;
 }
 #cryptoRate__TradeInfo {
-    height: 600px;
+    height: 280px;
+    display: inline-block;
     width: 90%;
     border: 2px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
@@ -913,6 +915,7 @@ header {
     height: 43px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 43px;
 }
 #cryptoRate__TradeInfo__Pick {
@@ -985,6 +988,7 @@ header {
     cursor: pointer;
     z-index: 4;
     position: relative;
+    background-color: #1c1d1f;
 }
 
 @media (max-width: 1200px) {
@@ -997,4 +1001,3 @@ header {
         font-size: 26px;
     }
 }
-GG
