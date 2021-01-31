@@ -13,7 +13,7 @@ let game_1_window__game__4 = document.querySelector("#game_1_window__game__4");
 let game_1_window__game__5 = document.querySelector("#game_1_window__game__5");
 let game_1_window__game__6 = document.querySelector("#game_1_window__game__6");
 let game_1_window__game = document.querySelector("#game_1_window__game");
-let game_1_window__game__wrap = document.querySelector("#game_1_window__game__wrap");
+let game_1_window__game__wrap = document.querySelector("#game_1_window__game__wrap__wrap");
 
 let game_1_Cofs1 = document.querySelector("#game_1_window__game__cofs__1");
 let game_1_Cofs2 = document.querySelector("#game_1_window__game__cofs__2");
@@ -88,7 +88,13 @@ let game1FirstClickOnLevel = true;
 game1_BCH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
 game1_BCH.style.border = "none";
 game1_BCH.style.transform = "scale(1.2)";
+let canSwapLvl = true;
 function game_1_levelsChanger(level) {
+    if(canSwapLvl) {
+        canSwapLvl = false;
+    } else {
+        return;
+    }
     if(game1FirstClickOnLevel) {
         if(level === 1) levelTempo = 5;
         else if(level === 5) levelTempo = 1;
@@ -111,6 +117,9 @@ function game_1_levelsChanger(level) {
             i = 0;
             while(i < 10) {
                 game_1__game__3__divs[i].style.opacity = "0";
+                game_1__game__4__divs[i].style.opacity = "0";
+                game_1__game__5__divs[i].style.opacity = "0";
+                game_1__game__6__divs[i].style.opacity = "0";
                 i++;
             }
 
@@ -319,4 +328,7 @@ function game_1_levelsChanger(level) {
             break;
     }
     levelTempo = level;
+    setTimeout(()=>{
+        canSwapLvl = true;
+    }, 2000);
 }
