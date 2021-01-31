@@ -483,6 +483,7 @@ header {
 
 #game_1_window {
     min-height: 90vh;
+    margin-bottom: 30px;
 }
 #game_1_window, #walletNExchanger {
     width: 90%;
