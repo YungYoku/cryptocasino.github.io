@@ -265,6 +265,12 @@ header {
     transform: scale(1.05);
     transition: all 0.3s;
 }
+#gamesSection__div__1 {
+    background-image: url("../imgs/game1_pre.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 #login, #registration {
