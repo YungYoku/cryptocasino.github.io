@@ -109,25 +109,38 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.boxShadow = "none";
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
-
-            game_1_window__game.style.width = "220px";
-            game_1_window__game.style.gridTemplate = "auto / 1fr 1fr";
-            game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2'";
             
             i = 0;
             while(i < 10) {
-                game_1__game__3__divs[i].style.opacity = "0";
-                game_1__game__4__divs[i].style.opacity = "0";
-                game_1__game__5__divs[i].style.opacity = "0";
-                game_1__game__6__divs[i].style.opacity = "0";
-                i++;
+                (function(i) {
+                    setTimeout(() => {
+                        game_1__game__3__divs[9-i].style.opacity = "0";
+                        game_1__game__4__divs[9-i].style.opacity = "0";
+                        game_1__game__5__divs[9-i].style.opacity = "0";
+                        game_1__game__6__divs[9-i].style.opacity = "0";
+                    }, i*100);
+                })(i++)
             }
 
-            game_1_window__game__3.style.display = "none";
-            game_1_window__game__4.style.display = "none";
-            game_1_window__game__5.style.display = "none";
-            game_1_window__game__6.style.display = "none";
-            game_1_window__game__wrap.style.width = "380px";
+            if(levelTempo > level) {
+                setTimeout(()=>{
+                    game_1_window__game__3.style.display = "none";
+                    game_1_window__game__4.style.display = "none";
+                    game_1_window__game__5.style.display = "none";
+                    game_1_window__game__6.style.display = "none";
+                }, 1000);
+                setTimeout(()=>{
+                    game_1_window__game.style.width = "220px";
+                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2'";
+                    game_1_window__game__wrap.style.width = "380px";
+                }, 1000);
+            } else {
+                game_1_window__game.style.width = "220px";
+                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2'";
+                game_1_window__game__wrap.style.width = "380px";
+            }
 
             game_1_Cofs1.innerHTML = "x2";
             game_1_Cofs2.innerHTML = "x4";
@@ -148,30 +161,47 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
             
-            game_1_window__game.style.width = "316px";
-            game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr";
-            game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3'";
-            
             setTimeout(()=>{
                 game_1_window__game__3.style.display = "grid";
             }, 1000);
 
             i = 0;
             while(i < 10) {
-                game_1__game__4__divs[i].style.opacity = "0";
-                game_1__game__5__divs[i].style.opacity = "0";
-                game_1__game__6__divs[i].style.opacity = "0";
                 (function(i) {
                     setTimeout(() => {
                         game_1__game__3__divs[i].style.opacity = "1";
                     }, 1100 + i*100);
                 })(i++)
             }
+            i = 0;
+            while(i < 10) {
+                (function(i) {
+                    setTimeout(() => {
+                        game_1__game__4__divs[9-i].style.opacity = "0";
+                        game_1__game__5__divs[9-i].style.opacity = "0";
+                        game_1__game__6__divs[9-i].style.opacity = "0";
+                    }, i*100);
+                })(i++)
+            }
 
-            game_1_window__game__4.style.display = "none";
-            game_1_window__game__5.style.display = "none";
-            game_1_window__game__6.style.display = "none";
-            game_1_window__game__wrap.style.width = "450px";
+            if(levelTempo > level) {
+                setTimeout(()=>{
+                    game_1_window__game__4.style.display = "none";
+                    game_1_window__game__5.style.display = "none";
+                    game_1_window__game__6.style.display = "none";
+                }, 1000);
+                setTimeout(()=>{
+                    game_1_window__game.style.width = "316px";
+                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3'";
+                    game_1_window__game__wrap.style.width = "450px";
+                }, 1000);
+            } else {
+                game_1_window__game.style.width = "316px";
+                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3'";
+                game_1_window__game__wrap.style.width = "450px";
+            }
 
             game_1_Cofs1.innerHTML = "x3";
             game_1_Cofs2.innerHTML = "x9";
@@ -192,10 +222,6 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
 
-            game_1_window__game.style.width = "412px";
-            game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr";
-            game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4'";
-            
             setTimeout(()=>{
                 game_1_window__game__3.style.display = "grid";
                 game_1_window__game__4.style.display = "grid";
@@ -203,8 +229,6 @@ function game_1_levelsChanger(level) {
 
             i = 0;
             while(i < 10) {
-                game_1__game__5__divs[i].style.opacity = "0";
-                game_1__game__6__divs[i].style.opacity = "0";
                 (function(i) {
                     setTimeout(() => {
                         game_1__game__3__divs[i].style.opacity = "1";
@@ -212,12 +236,32 @@ function game_1_levelsChanger(level) {
                     }, 1100 + i*100);
                 })(i++)
             }
-
-            game_1_window__game__3.style.display = "grid";
-            game_1_window__game__4.style.display = "grid";
-            game_1_window__game__5.style.display = "none";
-            game_1_window__game__6.style.display = "none";
-            game_1_window__game__wrap.style.width = "522px";
+            i = 0;
+            while(i < 10) {
+                (function(i) {
+                    setTimeout(() => {
+                        game_1__game__5__divs[9-i].style.opacity = "0";
+                        game_1__game__6__divs[9-i].style.opacity = "0";
+                    }, i*100);
+                })(i++)
+            }
+            if(levelTempo > level) {
+                setTimeout(()=>{
+                    game_1_window__game__5.style.display = "none";
+                    game_1_window__game__6.style.display = "none";
+                }, 1000);
+                setTimeout(()=>{
+                    game_1_window__game.style.width = "412px";
+                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4'";
+                    game_1_window__game__wrap.style.width = "522px";
+                }, 1000);
+            } else {
+                game_1_window__game.style.width = "412px";
+                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4'";
+                game_1_window__game__wrap.style.width = "522px";
+            }
 
             game_1_Cofs1.innerHTML = "x4";
             game_1_Cofs2.innerHTML = "x16";
@@ -237,11 +281,6 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.boxShadow = "none";
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
-
-            game_1_window__game.style.width = "508px";
-            game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr";
-            game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5'";
-            
             
             setTimeout(()=>{
                 game_1_window__game__3.style.display = "grid";
@@ -251,7 +290,6 @@ function game_1_levelsChanger(level) {
 
             i = 0;
             while(i < 10) {
-                game_1__game__6__divs[i].style.opacity = "0";
                 (function(i) {
                     setTimeout(() => {
                         game_1__game__3__divs[i].style.opacity = "1";
@@ -260,12 +298,30 @@ function game_1_levelsChanger(level) {
                     }, 1100 + i*100);
                 })(i++)
             }
-
-            game_1_window__game__3.style.display = "grid";
-            game_1_window__game__4.style.display = "grid";
-            game_1_window__game__5.style.display = "grid";
-            game_1_window__game__6.style.display = "none";
-            game_1_window__game__wrap.style.width = "618px";
+            i = 0;
+            while(i < 10) {
+                (function(i) {
+                    setTimeout(() => {
+                        game_1__game__6__divs[9-i].style.opacity = "0";
+                    }, i*100);
+                })(i++)
+            }
+            if(levelTempo > level) {
+                setTimeout(()=>{
+                    game_1_window__game__6.style.display = "none";
+                }, 1000);
+                setTimeout(()=>{
+                    game_1_window__game.style.width = "508px";
+                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5'";
+                    game_1_window__game__wrap.style.width = "618px";
+                }, 1000);
+            } else {
+                game_1_window__game.style.width = "508px";
+                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5'";
+                game_1_window__game__wrap.style.width = "618px";
+            }
 
             game_1_Cofs1.innerHTML = "x5";
             game_1_Cofs2.innerHTML = "x25";
@@ -286,10 +342,6 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
 
-            game_1_window__game.style.width = "604px";
-            game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr 1fr";
-            game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 game_1_window__game__6'";
-            
             setTimeout(()=>{
                 game_1_window__game__3.style.display = "grid";
                 game_1_window__game__4.style.display = "grid";
@@ -308,12 +360,19 @@ function game_1_levelsChanger(level) {
                     }, 1100 + i*100);
                 })(i++)
             }
-            
-            game_1_window__game__3.style.display = "grid";
-            game_1_window__game__4.style.display = "grid";
-            game_1_window__game__5.style.display = "grid";
-            game_1_window__game__6.style.display = "grid";
-            game_1_window__game__wrap.style.width = "714px";
+            if(levelTempo > level) {
+                setTimeout(()=>{
+                    game_1_window__game.style.width = "604px";
+                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr 1fr";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 game_1_window__game__6'";
+                    game_1_window__game__wrap.style.width = "714px";
+                }, 1000);
+            } else {
+                game_1_window__game.style.width = "604px";
+                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr 1fr";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 game_1_window__game__6'";
+                game_1_window__game__wrap.style.width = "714px";
+            }
 
             game_1_Cofs1.innerHTML = "x6";
             game_1_Cofs2.innerHTML = "x36";
