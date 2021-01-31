@@ -1128,7 +1128,7 @@ header {
     opacity: 0.4;
 }
 #game_1_window__game__cofs {
-    margin: 5px 0;
+    margin: 5px 15px 0 auto;
 }
 #game_1_window__game__cofs div {
     height: 40px;
