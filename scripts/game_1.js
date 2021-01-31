@@ -31,6 +31,12 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.boxShadow = "none";
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
+
+            game_1_window__game.style.width = "300px";
+            game_1_window__game.style.gridTemplate = "auto / 1fr 1fr";
+            game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2'";
+            game_1_window__game__3.style.display = "none";
+            game_1_window__game__wrap.style.width = "420px";
             break;
         case 2:
             game1_XRP.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
@@ -40,7 +46,6 @@ function game_1_levelsChanger(level) {
             game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
             game1_tokens[levelTempo-1].style.transform = "none";
             
-            game_1_window__game.style.display = "grid";
             game_1_window__game.style.width = "470px";
             game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr";
             game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3'";
