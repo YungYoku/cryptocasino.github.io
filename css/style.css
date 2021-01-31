@@ -482,7 +482,7 @@ header {
 
 
 #game_1_window {
-    height: 90vh;
+    min-height: 90vh;
 }
 #game_1_window, #walletNExchanger {
     width: 90%;
@@ -1046,17 +1046,54 @@ header {
     box-shadow: 0 0 4px 1px #1396cb;
     margin: 0 10%;
     display: grid;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr 1fr;
     grid-gap: 20px;
+    grid-template: auto / 1fr 1fr;
+    grid-template-areas: 'game_1_window__game__1 game_1_window__game__2';
     padding: 20px;
 }
-#game_1_window__game > div {
+#game_1_window__game__1 {
+    grid-area: game_1_window__game__1;
+    display: grid;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-gap: 20px;
+}
+#game_1_window__game__2 {
+    grid-area: game_1_window__game__2;
+    display: grid;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-gap: 20px;
+}
+#game_1_window__game__3 {
+    grid-area: game_1_window__game__3;
+    display: none;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-gap: 20px;
+}
+#game_1_window__game__4 {
+    grid-area: game_1_window__game__4;
+    display: none;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-gap: 20px;
+}
+#game_1_window__game__5 {
+    grid-area: game_1_window__game__5;
+    display: none;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-gap: 20px;
+}
+#game_1_window__game__6 {
+    grid-area: game_1_window__game__6;
+    display: none;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-gap: 20px;
+}
+#game_1_window__game div > div {
     height: 40px;
     width: 100%;
     border: 2px solid #1396cb;
     box-shadow: 0 0 4px 1px #1396cb;
 }
-#game_1_window__game > div > div {
+#game_1_window__game div > div > div {
     height: 36px;
     width: 100%;
     background-color: #1396cb;
