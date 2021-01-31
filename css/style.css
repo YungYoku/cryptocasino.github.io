@@ -497,7 +497,7 @@ header {
     justify-content: space-between;
     padding: 30px 65% 0 15%;
 }
-#game_1_window__levels div {
+#game_1_window__levels div > div {
     border: 3px solid #1396cb;
     padding: 10px;
     margin: 0 10px;
@@ -505,7 +505,21 @@ header {
     cursor: pointer;
     transition: all 0.3s;  
 }
-#game_1_window__levels div:hover {
+#game_1_window__levels div > h2 {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: translateY(-10px);
+}
+#game_1_window__levels div:hover h2 {
+    opacity: 1;
+    transition: all 0.3s;
+    transform: translateY(-30px);
+}
+#game_1_window__levels div > div:hover {
     transform: scale(1.1);
     transition: all 0.3s;
     box-shadow: 0 0 7px 1px #1396cb;
@@ -1033,58 +1047,60 @@ header {
     position: relative;
     display: grid;
     grid-template: auto / 3fr 7fr;
-    width: 420px;
-    justify-items: center;
+    width: 380px;
+    justify-items: flex-start;
     margin-top: 80px;
+    padding-left: 30px;
+    transition: all 1.5s;
 }
 #game_1_window__game {
     position: relative;
-    width: 300px;
+    width: 220px;
     border-bottom: 4px solid #1396cb;
     border-left: 4px solid #1396cb;
     border-right: 4px solid #1396cb;
     box-shadow: 0 0 4px 1px #1396cb;
-    margin: 0 10%;
     display: grid;
     grid-gap: 20px;
     grid-template: auto / 1fr 1fr;
     grid-template-areas: 'game_1_window__game__1 game_1_window__game__2';
     padding: 20px;
+    transition: all 1.5s;
 }
 #game_1_window__game__1 {
     grid-area: game_1_window__game__1;
     display: grid;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 76px;
     grid-gap: 20px;
 }
 #game_1_window__game__2 {
     grid-area: game_1_window__game__2;
     display: grid;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 76px;
     grid-gap: 20px;
 }
 #game_1_window__game__3 {
     grid-area: game_1_window__game__3;
     display: none;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 76px;
     grid-gap: 20px;
 }
 #game_1_window__game__4 {
     grid-area: game_1_window__game__4;
     display: none;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 76px;
     grid-gap: 20px;
 }
 #game_1_window__game__5 {
     grid-area: game_1_window__game__5;
     display: none;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 76px;
     grid-gap: 20px;
 }
 #game_1_window__game__6 {
     grid-area: game_1_window__game__6;
     display: none;
-    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 1fr;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 76px;
     grid-gap: 20px;
 }
 #game_1_window__game div > div {
@@ -1100,13 +1116,16 @@ header {
     opacity: 0.4;
 }
 #game_1_window__game__cofs {
-    margin: 5px 20px 0 auto;
+    margin: 5px 0;
 }
 #game_1_window__game__cofs div {
     height: 40px;
     margin: 20px 0;
     font-size: 25px;
     text-align: end;
+}
+#game_1_window__game__3 > div, #game_1_window__game__4 > div, #game_1_window__game__5 > div, #game_1_window__game__6 > div {
+    opacity: 0;
 }
 
 @media (max-width: 1200px) {
