@@ -131,14 +131,14 @@ function game_1_levelsChanger(level) {
                 }, 1000);
                 setTimeout(()=>{
                     game_1_window__game.style.width = "220px";
-                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr";
-                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2'";
+                    game_1_window__game.style.gridTemplate = "auto / 76px 76px 0 0 0 0";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 . . . .'";
                     game_1_window__game__wrap.style.width = "380px";
                 }, 1000);
             } else {
                 game_1_window__game.style.width = "220px";
-                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr";
-                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2'";
+                game_1_window__game.style.gridTemplate = "auto / 76px 76px 0 0 0 0";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 . . . .'";
                 game_1_window__game__wrap.style.width = "380px";
             }
 
@@ -192,14 +192,14 @@ function game_1_levelsChanger(level) {
                 }, 1000);
                 setTimeout(()=>{
                     game_1_window__game.style.width = "316px";
-                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr";
-                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3'";
+                    game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 0 0 0";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 . . .'";
                     game_1_window__game__wrap.style.width = "450px";
                 }, 1000);
             } else {
                 game_1_window__game.style.width = "316px";
-                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr";
-                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3'";
+                game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 0 0 0";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 . . .'";
                 game_1_window__game__wrap.style.width = "450px";
             }
 
@@ -252,14 +252,14 @@ function game_1_levelsChanger(level) {
                 }, 1000);
                 setTimeout(()=>{
                     game_1_window__game.style.width = "412px";
-                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr";
-                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4'";
+                    game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 0 0";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 . .'";
                     game_1_window__game__wrap.style.width = "522px";
                 }, 1000);
             } else {
                 game_1_window__game.style.width = "412px";
-                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr";
-                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4'";
+                game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 0 0";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 . .'";
                 game_1_window__game__wrap.style.width = "522px";
             }
 
@@ -312,14 +312,14 @@ function game_1_levelsChanger(level) {
                 }, 1000);
                 setTimeout(()=>{
                     game_1_window__game.style.width = "508px";
-                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr";
-                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5'";
+                    game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 76px 0";
+                    game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 .'";
                     game_1_window__game__wrap.style.width = "618px";
                 }, 1000);
             } else {
                 game_1_window__game.style.width = "508px";
-                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr";
-                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5'";
+                game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 76px 0";
+                game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 .'";
                 game_1_window__game__wrap.style.width = "618px";
             }
 
@@ -363,13 +363,13 @@ function game_1_levelsChanger(level) {
             if(levelTempo > level) {
                 setTimeout(()=>{
                     game_1_window__game.style.width = "604px";
-                    game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr 1fr";
+                    game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 76px 76px";
                     game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 game_1_window__game__6'";
                     game_1_window__game__wrap.style.width = "714px";
                 }, 1000);
             } else {
                 game_1_window__game.style.width = "604px";
-                game_1_window__game.style.gridTemplate = "auto / 1fr 1fr 1fr 1fr 1fr 1fr";
+                game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 76px 76px";
                 game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 game_1_window__game__6'";
                 game_1_window__game__wrap.style.width = "714px";
             }
