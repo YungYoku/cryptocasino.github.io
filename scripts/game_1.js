@@ -391,3 +391,111 @@ function game_1_levelsChanger(level) {
         canSwapLvl = true;
     }, 2000);
 }
+
+
+
+
+let game_1_window__game__1__1 = document.querySelector("#game_1_window__game__1__1");
+let game_1_window__game__1__2 = document.querySelector("#game_1_window__game__1__2");
+let game_1_window__game__1__3 = document.querySelector("#game_1_window__game__1__3");
+let game_1_window__game__1__4 = document.querySelector("#game_1_window__game__1__4");
+let game_1_window__game__1__5 = document.querySelector("#game_1_window__game__1__5");
+let game_1_window__game__1__6 = document.querySelector("#game_1_window__game__1__6");
+let game_1_window__game__1__7 = document.querySelector("#game_1_window__game__1__7");
+let game_1_window__game__1__8 = document.querySelector("#game_1_window__game__1__8");
+let game_1_window__game__1__9 = document.querySelector("#game_1_window__game__1__9");
+let game_1_window__game__1__10 = document.querySelector("#game_1_window__game__1__10");
+
+let game_1_column1 = [game_1_window__game__1__1, game_1_window__game__1__2, game_1_window__game__1__3,game_1_window__game__1__4, game_1_window__game__1__5, game_1_window__game__1__6, game_1_window__game__1__7, game_1_window__game__1__8, game_1_window__game__1__9, game_1_window__game__1__10];
+
+let game_1_window__game__2__1 = document.querySelector("#game_1_window__game__2__1");
+let game_1_window__game__2__2 = document.querySelector("#game_1_window__game__2__2");
+let game_1_window__game__2__3 = document.querySelector("#game_1_window__game__2__3");
+let game_1_window__game__2__4 = document.querySelector("#game_1_window__game__2__4");
+let game_1_window__game__2__5 = document.querySelector("#game_1_window__game__2__5");
+let game_1_window__game__2__6 = document.querySelector("#game_1_window__game__2__6");
+let game_1_window__game__2__7 = document.querySelector("#game_1_window__game__2__7");
+let game_1_window__game__2__8 = document.querySelector("#game_1_window__game__2__8");
+let game_1_window__game__2__9 = document.querySelector("#game_1_window__game__2__9");
+let game_1_window__game__2__10 = document.querySelector("#game_1_window__game__2__10");
+
+let game_1_column2 = [game_1_window__game__2__1, game_1_window__game__2__2, game_1_window__game__2__3,game_1_window__game__2__4, game_1_window__game__2__5, game_1_window__game__2__6, game_1_window__game__2__7, game_1_window__game__2__8, game_1_window__game__2__9, game_1_window__game__2__10];
+
+function gameRandSpawn(array1, array2) {
+    let i = 0;
+    let __game_1_column = [];
+    while(i < 10) {
+        __game_1_column[i] = Math.round(Math.random());
+
+        if(__game_1_column[i]) {
+            array1[i].innerHTML = "BCH";
+            array2[i].innerHTML = "x";
+        } else {
+            array1[i].innerHTML = "x";
+            array2[i].innerHTML = "BCH";
+        }
+        i++;
+    }
+}
+
+gameRandSpawn(game_1_column1, game_1_column2);
+
+let __game1_column_complete = [0,0,0,0,0,0,0,0,0,0];
+let columnStep = 1;
+function gameStep(num1, num2) {
+    if(num2 === columnStep) {
+        __game1_column_complete[columnStep] = 1;
+        game_1_column1[columnStep-1].style.fontSize = "20px";
+        game_1_column2[columnStep-1].style.fontSize = "20px";
+        columnStep++;
+    }
+
+    if(num1 === 1 && game_1_column1[num2-1].innerHTML === "x") {
+        let j = 0;
+        while(j < 10) {
+            game_1_column1[j].style.transform = "rotateX(360deg)"
+            game_1_column2[j].style.transform = "rotateX(360deg)"
+            j++;
+        }
+        j = 0;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.fontSize = "20px";
+                }, 2000);
+            })(j++)
+        }
+        j = 0;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column2[j].style.fontSize = "20px";
+                }, 2000);
+            })(j++)
+        }
+    } 
+    if(num1 === 2 && game_1_column2[num2-1].innerHTML === "x") {
+        let j = 0;
+        while(j < 10) {
+            game_1_column1[j].style.transform = "rotateX(360deg)"
+            game_1_column2[j].style.transform = "rotateX(360deg)"
+            j++;
+        }
+        j = 0;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.fontSize = "20px";
+                }, 2000);
+            })(j++)
+        }
+        j = 0;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column2[j].style.fontSize = "20px";
+                }, 2000);
+            })(j++)
+        }
+    }
+}
