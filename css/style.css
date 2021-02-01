@@ -236,7 +236,7 @@ header {
     outline: none;
     color: white;
     font-size: 24px;
-    width: 400px;
+    width: 30%;
     box-shadow: 0 0 7px 1px #1396cb;
     backdrop-filter: blur(2px);
 }
@@ -253,7 +253,7 @@ header {
     margin-bottom: 60px;
 }
 #gamesSection__div a {
-    width: 90%;
+    width: 80%;
     height: 100%;
     border: 1px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
@@ -1065,7 +1065,7 @@ header {
     grid-template: auto / 1fr 7fr;
     width: 100%;
     justify-items: start;
-    margin-top: 80px;
+    margin-top: 20px;
     padding-left: 30px;
     transition: all 1.5s;
     overflow: hidden;
