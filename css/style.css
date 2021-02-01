@@ -1133,6 +1133,13 @@ header {
     width: 100%;
     background-color: #1396cb;
     opacity: 0.4;
+    text-align: center;
+    color: white;
+    font-size: 0;
+    padding-top: 5px;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    transition: transform 2s;
 }
 #game_1_window__game__cofs {
     margin: 5px 15px 0 auto;
