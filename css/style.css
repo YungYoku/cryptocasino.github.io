@@ -470,12 +470,12 @@ header {
 #backToMenu {
     display: block;
     position: absolute;
-    left: 5%;
-    top: 30px;
+    left: 7%;
+    top: 55px;
     z-index: 3;
 }
 #backToMenu img {
-    width: 140px;
+    width: 100px;
 }
 #backToMenu img:hover {
     animation: backToMenuAnum 0.3s;
