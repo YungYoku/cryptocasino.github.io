@@ -443,6 +443,9 @@ gameRandSpawn(game_1_column1, game_1_column2);
 let __game1_column_complete = [0,0,0,0,0,0,0,0,0,0];
 let columnStep = 1;
 function gameStep(num1, num2) {
+    if(num2 > columnStep || num2 < columnStep) {
+        return;
+    }
     if(num2 === columnStep) {
         __game1_column_complete[columnStep] = 1;
         game_1_column1[columnStep-1].style.fontSize = "20px";
@@ -451,51 +454,57 @@ function gameStep(num1, num2) {
     }
 
     if(num1 === 1 && game_1_column1[num2-1].innerHTML === "x") {
-        let j = 0;
+        game_1_column1[num2-1].style.backgroundColor = "#dd2121";
+        let j = num2;
         while(j < 10) {
             game_1_column1[j].style.transform = "rotateX(360deg)"
             game_1_column2[j].style.transform = "rotateX(360deg)"
             j++;
         }
-        j = 0;
+        j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
                     game_1_column1[j].style.fontSize = "20px";
-                }, 2000);
+                }, 1000);
             })(j++)
         }
-        j = 0;
+        j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
                     game_1_column2[j].style.fontSize = "20px";
-                }, 2000);
+                }, 1000);
             })(j++)
         }
-    } 
+    } else if(num1 === 1 && game_1_column1[num2-1].innerHTML !== "x") {
+        game_1_column1[num2-1].style.backgroundColor = "#3aeb7e";
+    }
     if(num1 === 2 && game_1_column2[num2-1].innerHTML === "x") {
-        let j = 0;
+        game_1_column2[num2-1].style.backgroundColor = "#dd2121";
+        let j = num2;
         while(j < 10) {
             game_1_column1[j].style.transform = "rotateX(360deg)"
             game_1_column2[j].style.transform = "rotateX(360deg)"
             j++;
         }
-        j = 0;
+        j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
                     game_1_column1[j].style.fontSize = "20px";
-                }, 2000);
+                }, 1000);
             })(j++)
         }
-        j = 0;
+        j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
                     game_1_column2[j].style.fontSize = "20px";
-                }, 2000);
+                }, 1000);
             })(j++)
         }
+    } else if(num1 === 2 && game_1_column2[num2-1].innerHTML !== "x") {
+        game_1_column2[num2-1].style.backgroundColor = "#3aeb7e";
     }
 }
