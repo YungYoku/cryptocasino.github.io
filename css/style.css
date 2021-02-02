@@ -1139,6 +1139,7 @@ header {
     padding-top: 5px;
     backface-visibility: hidden;
     perspective: 1000px;
+    transition: all 0.3s;
     transition: transform 2s;
 }
 #game_1_window__game__cofs {
