@@ -271,6 +271,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+#gamesSection__div__2 {
+    background-image: url("../imgs/game2_pre.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 #login, #registration {
