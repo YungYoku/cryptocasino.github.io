@@ -190,7 +190,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
             break;
         case 2: 
             while(i < 10) {
-                __game_1_column[i] = Math.round(Math.random() * 2);
+                __game_1_column[i] = Math.round(Math.round(Math.random() * 2 - 1) + 1);
         
                 if(__game_1_column[i] === 0) {
                     array1[i].innerHTML = "XRP";
@@ -210,7 +210,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
             break;
         case 3: 
             while(i < 10) {
-                __game_1_column[i] = Math.round(Math.random() * 3);
+                __game_1_column[i] = Math.round(Math.round(Math.random() * 3 - 1) + 1);
         
                 if(__game_1_column[i] === 0) {
                     array1[i].innerHTML = "LTC";
@@ -238,7 +238,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
             break;
         case 4: 
             while(i < 10) {
-                __game_1_column[i] = Math.round(Math.random() * 4);
+                __game_1_column[i] = Math.round(Math.round(Math.random() * 4 - 1) + 1);
         
                 if(__game_1_column[i] === 0) {
                     array1[i].innerHTML = "ETH";
@@ -276,7 +276,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
             break;
         case 5: 
             while(i < 10) {
-                __game_1_column[i] = Math.round(Math.random() * 5);
+                __game_1_column[i] = Math.round(Math.round(Math.random() * 5 - 1) + 1);
         
                 if(__game_1_column[i] === 0) {
                     array1[i].innerHTML = "BTC";
