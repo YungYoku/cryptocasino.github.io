@@ -338,7 +338,7 @@ game1_BCH.style.border = "none";
 game1_BCH.style.transform = "scale(1.2)";
 let canSwapLvl = true;
 let currentGame = 1;
-function game_1_levelsChanger(level) {
+function game_1_levelsChanger(level = levelTempo) {
     if(canSwapLvl) {
         canSwapLvl = false;
     } else {
