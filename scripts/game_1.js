@@ -193,17 +193,17 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                 __game_1_column[i] = Math.round(Math.random() * 2);
         
                 if(__game_1_column[i] === 0) {
-                    array1[i].innerHTML = "BCH";
+                    array1[i].innerHTML = "XRP";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
-                    array2[i].innerHTML = "BCH";
+                    array2[i].innerHTML = "XRP";
                     array3[i].innerHTML = "x";
                 } else {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
-                    array3[i].innerHTML = "BCH";
+                    array3[i].innerHTML = "XRP";
                 }
             i++;
             }
@@ -213,25 +213,25 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                 __game_1_column[i] = Math.round(Math.random() * 2);
         
                 if(__game_1_column[i] === 0) {
-                    array1[i].innerHTML = "BCH";
+                    array1[i].innerHTML = "LTC";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
-                    array2[i].innerHTML = "BCH";
+                    array2[i].innerHTML = "LTC";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 2) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
-                    array3[i].innerHTML = "BCH";
+                    array3[i].innerHTML = "LTC";
                     array4[i].innerHTML = "x";
                 } else {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
-                    array4[i].innerHTML = "BCH";
+                    array4[i].innerHTML = "LTC";
                 }
             i++;
             }
@@ -241,35 +241,35 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                 __game_1_column[i] = Math.round(Math.random() * 2);
         
                 if(__game_1_column[i] === 0) {
-                    array1[i].innerHTML = "BCH";
+                    array1[i].innerHTML = "ETH";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
-                    array2[i].innerHTML = "BCH";
+                    array2[i].innerHTML = "ETH";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 2) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
-                    array3[i].innerHTML = "BCH";
+                    array3[i].innerHTML = "ETH";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 3) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
-                    array4[i].innerHTML = "BCH";
+                    array4[i].innerHTML = "ETH";
                     array5[i].innerHTML = "x";
                 } else {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
-                    array5[i].innerHTML = "BCH";
+                    array5[i].innerHTML = "ETH";
                 }
             i++;
             }
@@ -279,7 +279,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                 __game_1_column[i] = Math.round(Math.random() * 2);
         
                 if(__game_1_column[i] === 0) {
-                    array1[i].innerHTML = "BCH";
+                    array1[i].innerHTML = "BTC";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
@@ -287,7 +287,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array6[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
-                    array2[i].innerHTML = "BCH";
+                    array2[i].innerHTML = "BTC";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
@@ -295,7 +295,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                 } else if(__game_1_column[i] === 2) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
-                    array3[i].innerHTML = "BCH";
+                    array3[i].innerHTML = "BTC";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "x";
@@ -303,7 +303,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
-                    array4[i].innerHTML = "BCH";
+                    array4[i].innerHTML = "BTC";
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "x";
                 } else if(__game_1_column[i] === 4)  {
@@ -311,7 +311,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
-                    array5[i].innerHTML = "BCH";
+                    array5[i].innerHTML = "BTC";
                     array6[i].innerHTML = "x";
                 } else {
                     array1[i].innerHTML = "x";
@@ -319,7 +319,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
-                    array6[i].innerHTML = "BCH";
+                    array6[i].innerHTML = "BTC";
                 }
             i++;
             }
