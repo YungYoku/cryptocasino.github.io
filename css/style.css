@@ -222,6 +222,7 @@ header {
 
 #gamesSection {
     padding: 0 5%;
+    margin: 0 auto;
 }
 #gamesSection label {
     display: block;
@@ -244,22 +245,25 @@ header {
     border: 1px solid blue;
 }
 #gamesSection__div {
+    width: 100%;
     display: grid;
-    grid-template: 200px 200px / 1fr 1fr 1fr;
+    grid-template: 260px 260px / 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
-    grid-gap: 40px;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    grid-gap: 5%;
+    margin: 20px auto 60px auto;
 }
 #gamesSection__div a {
-    width: 80%;
+    display: block;
+    width: 100%;
+    max-width: 462px;
     height: 100%;
+    max-height: 260px;
     border: 1px solid #1396cb;
     box-shadow: 0 0 7px 1px #1396cb;
     transition: all 0.3s;
-    display: block;
     backdrop-filter: blur(2px);
+    margin: auto;
 }
 #gamesSection__div a:hover {
     transform: scale(1.05);
