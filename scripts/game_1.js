@@ -339,7 +339,6 @@ game1_BCH.style.transform = "scale(1.2)";
 let canSwapLvl = true;
 let currentGame = 1;
 function game_1_levelsChanger(level) {
-    gameover = false;
     if(canSwapLvl) {
         canSwapLvl = false;
     } else {
@@ -353,9 +352,15 @@ function game_1_levelsChanger(level) {
     let i = 0;
 
     columnStep = 1;
-    setTimeout(()=>{
+
+    if(levelTempo !== level) {
+        gameover = false;
+        setTimeout(()=>{
+            gameover = true;
+        }, 2000);
+    } else {
         gameover = true;
-    }, 2000);
+    }
 
     itemsCleaner();
     setTimeout(()=>{
