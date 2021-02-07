@@ -1211,7 +1211,7 @@ header {
 }
 .betsLocation__table__desk__coin {
     border: 6px solid #006837;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: black;
     z-index: 6;
@@ -1219,6 +1219,7 @@ header {
     display: inline-block;
     width: 100%;
     height: 65px;
+    padding-top: 5px;
     box-shadow: 0 0 4px 1px #34dd8e;
     text-align: center;
     transition: all 0.2s;
@@ -1304,6 +1305,27 @@ header {
     transition: all 0.3s;
 }
 
+@media (max-width: 1700px) {
+    .betsLocation__table__desk__coin {
+        font-size: 30px;
+        height: 65px;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 1500px) {
+    .betsLocation__table__desk__coin {
+        font-size: 20px;
+        height: 65px;
+        padding-top: 16px;
+    }
+}
+@media (max-width: 1300px) {
+    .betsLocation__table__desk__coin {
+        font-size: 16px;
+        height: 50px;
+        padding-top: 10px;
+    }
+}
 @media (max-width: 1200px) {
     #gamesSection__div {
         grid-template: 200px 200px 200px/ 1fr 1fr;
