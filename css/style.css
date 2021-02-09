@@ -703,7 +703,7 @@ header {
 #walletNExchanger__exchanger__resultWrap button {
     width: 60%;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     background-color: transparent;
     box-shadow: 0 0 7px 1px #1396cb;
     color: white;
@@ -712,11 +712,7 @@ header {
     border-radius: 15px;
     transition: all 0.3s;
     font-size: 20px;
-    margin-top: 10px;
 }
-
-
-
 
 #coinPickerWrap {
     display: flex;
@@ -788,7 +784,7 @@ header {
 }
 #logoCabinet a {
     display: block;
-    width: 112.05px;
+    width: 112px;
     height: 75px;
     margin: 0 auto;
     transition: all 0.3s;
@@ -845,7 +841,7 @@ header {
     right: -30px;
     top: -20px;
 }
-#cabinetInfo__line {
+.cabinetInfo__line {
     position: absolute;
     width: 100%;
     left: 0;
@@ -989,7 +985,7 @@ header {
     justify-content: center;
     margin-bottom: 43px;
 }
-#cryptoRate__TradeInfo__Pick {
+.cryptoRate__TradeInfo__Pick {
     width: 60px;
     height: 43px;
     display: inline-block;
@@ -997,11 +993,11 @@ header {
     transition: all 0.5s;
     margin: 0 40px 0 0;
 }
-#cryptoRate__TradeInfo__Pick:hover #cryptoRate__TradeInfo__Pick__dropdown-content {
+.cryptoRate__TradeInfo__Pick:hover .cryptoRate__TradeInfo__Pick__dropdown-content {
     display: block;
     transition: all 0.5s;
 }
-#cryptoRate__TradeInfo__Pick button {
+.cryptoRate__TradeInfo__Pick button {
     background-color: #1c1d1f;
     outline: none;
     color: white;
@@ -1013,14 +1009,14 @@ header {
     margin: 0 auto;
     display: block;
 }
-#cryptoRate__TradeInfo__Pick__dropdown-content {
+.cryptoRate__TradeInfo__Pick__dropdown-content {
     display: none;
     position: absolute;
     right: 0;
     transition: all 0.5s;
     width: 60px;
 }
-#cryptoRate__TradeInfo__Pick__dropdown-content button {
+.cryptoRate__TradeInfo__Pick__dropdown-content button {
     display: block;
     margin: auto;
     z-index: 5;
@@ -1049,7 +1045,7 @@ header {
 #cryptoRate__TradeInfo__Wrap__CC {
     display: inline;
     height: 43px;
-    width: 58.25px;
+    width: 58px;
     margin-right: 40px;
     padding: 10px;
     border: 1px solid #1396cb;
@@ -1150,7 +1146,6 @@ header {
     padding-top: 5px;
     backface-visibility: hidden;
     perspective: 1000px;
-    transition: all 0.3s;
     transition: transform 2s;
 }
 #game_1_window__game__cofs {
