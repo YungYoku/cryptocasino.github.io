@@ -1134,6 +1134,12 @@ header {
     width: 100%;
     border: 2px solid #1396cb;
     box-shadow: 0 0 4px 1px #1396cb;
+    text-align: center;
+    padding-top: 7px;
+    position: relative;
+}
+#game_1_window__game div > div h4 {
+    font-size: 0px;
 }
 #game_1_window__game div > div > div {
     height: 36px;
@@ -1147,6 +1153,8 @@ header {
     backface-visibility: hidden;
     perspective: 1000px;
     transition: transform 2s;
+    position: absolute;
+    top: 0;
 }
 #game_1_window__game__cofs {
     margin: 5px 15px 0 auto;
