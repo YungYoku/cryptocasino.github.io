@@ -802,6 +802,11 @@ function gameStep(num1, num2) {
 
     if(num1 === 1 && game_1_column1_text[num2-1].innerHTML === "x") {
         game_1_column1[num2-1].style.backgroundColor = "#dd2121";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
         let j = num2;
         while(j < 10) {
             (function(j) {
@@ -844,9 +849,19 @@ function gameStep(num1, num2) {
         gameover = false;
     } else if(num1 === 1 && game_1_column1_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "#3aeb7e";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 2 && game_1_column2_text[num2-1].innerHTML === "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "#dd2121";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
         let j = num2;
         while(j < 10) {
             (function(j) {
@@ -888,10 +903,20 @@ function gameStep(num1, num2) {
         }
         gameover = false;
     } else if(num1 === 2 && game_1_column2_text[num2-1].innerHTML !== "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "#3aeb7e";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 3 && game_1_column3_text[num2-1].innerHTML === "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "#dd2121";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
         let j = num2;
         while(j < 10) {
             (function(j) {
@@ -933,10 +958,20 @@ function gameStep(num1, num2) {
         }
         gameover = false;
     } else if(num1 === 3 && game_1_column3_text[num2-1].innerHTML !== "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "#3aeb7e";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 4 && game_1_column4_text[num2-1].innerHTML === "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
         game_1_column4[num2-1].style.backgroundColor = "#dd2121";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
         let j = num2;
         while(j < 10) {
             (function(j) {
@@ -978,10 +1013,20 @@ function gameStep(num1, num2) {
         }
         gameover = false;
     } else if(num1 === 4 && game_1_column4_text[num2-1].innerHTML !== "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
         game_1_column4[num2-1].style.backgroundColor = "#3aeb7e";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 5 && game_1_column5_text[num2-1].innerHTML === "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
         game_1_column5[num2-1].style.backgroundColor = "#dd2121";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
         let j = num2;
         while(j < 10) {
             (function(j) {
@@ -1023,9 +1068,19 @@ function gameStep(num1, num2) {
         }
         gameover = false;
     } else if(num1 === 5 && game_1_column5_text[num2-1].innerHTML !== "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
         game_1_column5[num2-1].style.backgroundColor = "#3aeb7e";
+        game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 6 && game_1_column6_text[num2-1].innerHTML === "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
         game_1_column6[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
@@ -1068,6 +1123,11 @@ function gameStep(num1, num2) {
         }
         gameover = false;
     } else if(num1 === 6 && game_1_column6_text[num2-1].innerHTML !== "x") {
+        game_1_column1[num2-1].style.backgroundColor = "transparent";
+        game_1_column2[num2-1].style.backgroundColor = "transparent";
+        game_1_column3[num2-1].style.backgroundColor = "transparent";
+        game_1_column4[num2-1].style.backgroundColor = "transparent";
+        game_1_column5[num2-1].style.backgroundColor = "transparent";
         game_1_column6[num2-1].style.backgroundColor = "#3aeb7e";
     }
 }
