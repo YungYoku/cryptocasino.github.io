@@ -94,7 +94,19 @@ let game_1_window__game__1__8 = document.querySelector("#game_1_window__game__1_
 let game_1_window__game__1__9 = document.querySelector("#game_1_window__game__1__9");
 let game_1_window__game__1__10 = document.querySelector("#game_1_window__game__1__10");
 
-let game_1_column1 = [game_1_window__game__1__1, game_1_window__game__1__2, game_1_window__game__1__3,game_1_window__game__1__4, game_1_window__game__1__5, game_1_window__game__1__6, game_1_window__game__1__7, game_1_window__game__1__8, game_1_window__game__1__9, game_1_window__game__1__10];
+let game_1_window__game__1__1_text = document.querySelector("#game_1_window__game__1__1-text");
+let game_1_window__game__1__2_text = document.querySelector("#game_1_window__game__1__2-text");
+let game_1_window__game__1__3_text = document.querySelector("#game_1_window__game__1__3-text");
+let game_1_window__game__1__4_text = document.querySelector("#game_1_window__game__1__4-text");
+let game_1_window__game__1__5_text = document.querySelector("#game_1_window__game__1__5-text");
+let game_1_window__game__1__6_text = document.querySelector("#game_1_window__game__1__6-text");
+let game_1_window__game__1__7_text = document.querySelector("#game_1_window__game__1__7-text");
+let game_1_window__game__1__8_text = document.querySelector("#game_1_window__game__1__8-text");
+let game_1_window__game__1__9_text = document.querySelector("#game_1_window__game__1__9-text");
+let game_1_window__game__1__10_text = document.querySelector("#game_1_window__game__1__10-text");
+
+let game_1_column1_text = [game_1_window__game__1__1_text, game_1_window__game__1__2_text, game_1_window__game__1__3_text, game_1_window__game__1__4_text, game_1_window__game__1__5_text, game_1_window__game__1__6_text, game_1_window__game__1__7_text, game_1_window__game__1__8_text, game_1_window__game__1__9_text, game_1_window__game__1__10_text];
+let game_1_column1 = [game_1_window__game__1__1, game_1_window__game__1__2, game_1_window__game__1__3, game_1_window__game__1__4, game_1_window__game__1__5, game_1_window__game__1__6, game_1_window__game__1__7, game_1_window__game__1__8, game_1_window__game__1__9, game_1_window__game__1__10];
 
 
 let game_1_window__game__2__1 = document.querySelector("#game_1_window__game__2__1");
@@ -108,6 +120,18 @@ let game_1_window__game__2__8 = document.querySelector("#game_1_window__game__2_
 let game_1_window__game__2__9 = document.querySelector("#game_1_window__game__2__9");
 let game_1_window__game__2__10 = document.querySelector("#game_1_window__game__2__10");
 
+let game_1_window__game__2__1_text = document.querySelector("#game_1_window__game__2__1-text");
+let game_1_window__game__2__2_text = document.querySelector("#game_1_window__game__2__2-text");
+let game_1_window__game__2__3_text = document.querySelector("#game_1_window__game__2__3-text");
+let game_1_window__game__2__4_text = document.querySelector("#game_1_window__game__2__4-text");
+let game_1_window__game__2__5_text = document.querySelector("#game_1_window__game__2__5-text");
+let game_1_window__game__2__6_text = document.querySelector("#game_1_window__game__2__6-text");
+let game_1_window__game__2__7_text = document.querySelector("#game_1_window__game__2__7-text");
+let game_1_window__game__2__8_text = document.querySelector("#game_1_window__game__2__8-text");
+let game_1_window__game__2__9_text = document.querySelector("#game_1_window__game__2__9-text");
+let game_1_window__game__2__10_text = document.querySelector("#game_1_window__game__2__10-text");
+
+let game_1_column2_text = [game_1_window__game__2__1_text, game_1_window__game__2__2_text, game_1_window__game__2__3_text, game_1_window__game__2__4_text, game_1_window__game__2__5_text, game_1_window__game__2__6_text, game_1_window__game__2__7_text, game_1_window__game__2__8_text, game_1_window__game__2__9_text, game_1_window__game__2__10_text];
 let game_1_column2 = [game_1_window__game__2__1, game_1_window__game__2__2, game_1_window__game__2__3,game_1_window__game__2__4, game_1_window__game__2__5, game_1_window__game__2__6, game_1_window__game__2__7, game_1_window__game__2__8, game_1_window__game__2__9, game_1_window__game__2__10];
 
 
@@ -122,6 +146,18 @@ let game_1_window__game__3__8 = document.querySelector("#game_1_window__game__3_
 let game_1_window__game__3__9 = document.querySelector("#game_1_window__game__3__9");
 let game_1_window__game__3__10 = document.querySelector("#game_1_window__game__3__10");
 
+let game_1_window__game__3__1_text = document.querySelector("#game_1_window__game__3__1-text");
+let game_1_window__game__3__2_text = document.querySelector("#game_1_window__game__3__2-text");
+let game_1_window__game__3__3_text = document.querySelector("#game_1_window__game__3__3-text");
+let game_1_window__game__3__4_text = document.querySelector("#game_1_window__game__3__4-text");
+let game_1_window__game__3__5_text = document.querySelector("#game_1_window__game__3__5-text");
+let game_1_window__game__3__6_text = document.querySelector("#game_1_window__game__3__6-text");
+let game_1_window__game__3__7_text = document.querySelector("#game_1_window__game__3__7-text");
+let game_1_window__game__3__8_text = document.querySelector("#game_1_window__game__3__8-text");
+let game_1_window__game__3__9_text = document.querySelector("#game_1_window__game__3__9-text");
+let game_1_window__game__3__10_text = document.querySelector("#game_1_window__game__3__10-text");
+
+let game_1_column3_text = [game_1_window__game__3__1_text, game_1_window__game__3__2_text, game_1_window__game__3__3_text, game_1_window__game__3__4_text, game_1_window__game__3__5_text, game_1_window__game__3__6_text, game_1_window__game__3__7_text, game_1_window__game__3__8_text, game_1_window__game__3__9_text, game_1_window__game__3__10_text];
 let game_1_column3 = [game_1_window__game__3__1, game_1_window__game__3__2, game_1_window__game__3__3,game_1_window__game__3__4, game_1_window__game__3__5, game_1_window__game__3__6, game_1_window__game__3__7, game_1_window__game__3__8, game_1_window__game__3__9, game_1_window__game__3__10];
 
 
@@ -136,6 +172,18 @@ let game_1_window__game__4__8 = document.querySelector("#game_1_window__game__4_
 let game_1_window__game__4__9 = document.querySelector("#game_1_window__game__4__9");
 let game_1_window__game__4__10 = document.querySelector("#game_1_window__game__4__10");
 
+let game_1_window__game__4__1_text = document.querySelector("#game_1_window__game__4__1-text");
+let game_1_window__game__4__2_text = document.querySelector("#game_1_window__game__4__2-text");
+let game_1_window__game__4__3_text = document.querySelector("#game_1_window__game__4__3-text");
+let game_1_window__game__4__4_text = document.querySelector("#game_1_window__game__4__4-text");
+let game_1_window__game__4__5_text = document.querySelector("#game_1_window__game__4__5-text");
+let game_1_window__game__4__6_text = document.querySelector("#game_1_window__game__4__6-text");
+let game_1_window__game__4__7_text = document.querySelector("#game_1_window__game__4__7-text");
+let game_1_window__game__4__8_text = document.querySelector("#game_1_window__game__4__8-text");
+let game_1_window__game__4__9_text = document.querySelector("#game_1_window__game__4__9-text");
+let game_1_window__game__4__10_text = document.querySelector("#game_1_window__game__4__10-text");
+
+let game_1_column4_text = [game_1_window__game__4__1_text, game_1_window__game__4__2_text, game_1_window__game__4__3_text, game_1_window__game__4__4_text, game_1_window__game__4__5_text, game_1_window__game__4__6_text, game_1_window__game__4__7_text, game_1_window__game__4__8_text, game_1_window__game__4__9_text, game_1_window__game__4__10_text];
 let game_1_column4 = [game_1_window__game__4__1, game_1_window__game__4__2, game_1_window__game__4__3,game_1_window__game__4__4, game_1_window__game__4__5, game_1_window__game__4__6, game_1_window__game__4__7, game_1_window__game__4__8, game_1_window__game__4__9, game_1_window__game__4__10];
 
 
@@ -150,6 +198,19 @@ let game_1_window__game__5__8 = document.querySelector("#game_1_window__game__5_
 let game_1_window__game__5__9 = document.querySelector("#game_1_window__game__5__9");
 let game_1_window__game__5__10 = document.querySelector("#game_1_window__game__5__10");
 
+
+let game_1_window__game__5__1_text = document.querySelector("#game_1_window__game__5__1-text");
+let game_1_window__game__5__2_text = document.querySelector("#game_1_window__game__5__2-text");
+let game_1_window__game__5__3_text = document.querySelector("#game_1_window__game__5__3-text");
+let game_1_window__game__5__4_text = document.querySelector("#game_1_window__game__5__4-text");
+let game_1_window__game__5__5_text = document.querySelector("#game_1_window__game__5__5-text");
+let game_1_window__game__5__6_text = document.querySelector("#game_1_window__game__5__6-text");
+let game_1_window__game__5__7_text = document.querySelector("#game_1_window__game__5__7-text");
+let game_1_window__game__5__8_text = document.querySelector("#game_1_window__game__5__8-text");
+let game_1_window__game__5__9_text = document.querySelector("#game_1_window__game__5__9-text");
+let game_1_window__game__5__10_text = document.querySelector("#game_1_window__game__5__10-text");
+
+let game_1_column5_text = [game_1_window__game__5__1_text, game_1_window__game__5__2_text, game_1_window__game__5__3_text, game_1_window__game__5__4_text, game_1_window__game__5__5_text, game_1_window__game__5__6_text, game_1_window__game__5__7_text, game_1_window__game__5__8_text, game_1_window__game__5__9_text, game_1_window__game__5__10_text];
 let game_1_column5 = [game_1_window__game__5__1, game_1_window__game__5__2, game_1_window__game__5__3,game_1_window__game__5__4, game_1_window__game__5__5, game_1_window__game__5__6, game_1_window__game__5__7, game_1_window__game__5__8, game_1_window__game__5__9, game_1_window__game__5__10];
 
 
@@ -164,6 +225,18 @@ let game_1_window__game__6__8 = document.querySelector("#game_1_window__game__6_
 let game_1_window__game__6__9 = document.querySelector("#game_1_window__game__6__9");
 let game_1_window__game__6__10 = document.querySelector("#game_1_window__game__6__10");
 
+let game_1_window__game__6__1_text = document.querySelector("#game_1_window__game__6__1-text");
+let game_1_window__game__6__2_text = document.querySelector("#game_1_window__game__6__2-text");
+let game_1_window__game__6__3_text = document.querySelector("#game_1_window__game__6__3-text");
+let game_1_window__game__6__4_text = document.querySelector("#game_1_window__game__6__4-text");
+let game_1_window__game__6__5_text = document.querySelector("#game_1_window__game__6__5-text");
+let game_1_window__game__6__6_text = document.querySelector("#game_1_window__game__6__6-text");
+let game_1_window__game__6__7_text = document.querySelector("#game_1_window__game__6__7-text");
+let game_1_window__game__6__8_text = document.querySelector("#game_1_window__game__6__8-text");
+let game_1_window__game__6__9_text = document.querySelector("#game_1_window__game__6__9-text");
+let game_1_window__game__6__10_text = document.querySelector("#game_1_window__game__6__10-text");
+
+let game_1_column6_text = [game_1_window__game__6__1_text, game_1_window__game__6__2_text, game_1_window__game__6__3_text, game_1_window__game__6__4_text, game_1_window__game__6__5_text, game_1_window__game__6__6_text, game_1_window__game__6__7_text, game_1_window__game__6__8_text, game_1_window__game__6__9_text, game_1_window__game__6__10_text];
 let game_1_column6 = [game_1_window__game__6__1, game_1_window__game__6__2, game_1_window__game__6__3,game_1_window__game__6__4, game_1_window__game__6__5, game_1_window__game__6__6, game_1_window__game__6__7, game_1_window__game__6__8, game_1_window__game__6__9, game_1_window__game__6__10];
 
 
@@ -175,7 +248,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
         case 1: 
             while(i < 10) {
                 __game_1_column[i] = Math.round(Math.random());
-        
+                
                 if(__game_1_column[i]) {
                     array1[i].innerHTML = "BCH";
                     array2[i].innerHTML = "x";
@@ -324,7 +397,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
             break;
     }
 }
-gameRandSpawn(1, game_1_column1, game_1_column2);
+gameRandSpawn(1, game_1_column1_text, game_1_column2_text);
 
 
 
@@ -372,18 +445,18 @@ function game_1_levelsChanger(level = levelTempo) {
     setTimeout(()=>{
         let k = 0;
         while(k < 10) {
-            game_1_column1[k].style.transition = "transform 2s"
-            game_1_column2[k].style.transition = "transform 2s"
-            game_1_column3[k].style.transition = "transform 2s"
-            game_1_column4[k].style.transition = "transform 2s"
-            game_1_column5[k].style.transition = "transform 2s"
-            game_1_column6[k].style.transition = "transform 2s"
+            game_1_column1[k].style.transition = "transform 2s";
+            game_1_column2[k].style.transition = "transform 2s";
+            game_1_column3[k].style.transition = "transform 2s";
+            game_1_column4[k].style.transition = "transform 2s";
+            game_1_column5[k].style.transition = "transform 2s";
+            game_1_column6[k].style.transition = "transform 2s";
             k++;
         }
         switch(level) {
             case 1:
                 currentGame = 1;
-                gameRandSpawn(currentGame, game_1_column1, game_1_column2);
+                gameRandSpawn(currentGame, game_1_column1_text, game_1_column2_text);
                 game1_BCH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_BCH.style.border = "none";
                 game1_BCH.style.transform = "scale(1.2)";
@@ -433,7 +506,7 @@ function game_1_levelsChanger(level = levelTempo) {
                 break;
             case 2:
                 currentGame = 2;
-                gameRandSpawn(currentGame, game_1_column1, game_1_column2, game_1_column3);
+                gameRandSpawn(currentGame, game_1_column1_text, game_1_column2_text, game_1_column3_text);
                 game1_XRP.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_XRP.style.border = "none";
                 game1_XRP.style.transform = "scale(1.2)";
@@ -493,7 +566,7 @@ function game_1_levelsChanger(level = levelTempo) {
                 break;
             case 3:
                 currentGame = 3;
-                gameRandSpawn(currentGame, game_1_column1, game_1_column2, game_1_column3, game_1_column4);
+                gameRandSpawn(currentGame, game_1_column1_text, game_1_column2_text, game_1_column3_text, game_1_column4_text);
                 game1_LTC.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_LTC.style.border = "none";
                 game1_LTC.style.transform = "scale(1.2)";
@@ -552,7 +625,7 @@ function game_1_levelsChanger(level = levelTempo) {
                 break;
             case 4:
                 currentGame = 4;
-                gameRandSpawn(currentGame, game_1_column1, game_1_column2, game_1_column3, game_1_column4, game_1_column5);
+                gameRandSpawn(currentGame, game_1_column1_text, game_1_column2_text, game_1_column3_text, game_1_column4_text, game_1_column5_text);
                 game1_ETH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_ETH.style.border = "none";
                 game1_ETH.style.transform = "scale(1.2)";
@@ -611,7 +684,7 @@ function game_1_levelsChanger(level = levelTempo) {
                 break;
             case 5:
                 currentGame = 5;
-                gameRandSpawn(currentGame, game_1_column1, game_1_column2, game_1_column3, game_1_column4, game_1_column5, game_1_column6);
+                gameRandSpawn(currentGame, game_1_column1_text, game_1_column2_text, game_1_column3_text, game_1_column4_text, game_1_column5_text, game_1_column6_text);
                 game1_BTC.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_BTC.style.border = "none";
                 game1_BTC.style.transform = "scale(1.2)";
@@ -686,22 +759,22 @@ function itemsCleaner() {
         game_1_column6[i].style.transform = "rotateX(0)"
 
 
-        game_1_column1[i].style.fontSize = "0";
+        game_1_column1_text[i].style.fontSize = "0";
         game_1_column1[i].style.backgroundColor = "#1396cb";
 
-        game_1_column2[i].style.fontSize = "0";
+        game_1_column2_text[i].style.fontSize = "0";
         game_1_column2[i].style.backgroundColor = "#1396cb";
 
-        game_1_column3[i].style.fontSize = "0";
+        game_1_column3_text[i].style.fontSize = "0";
         game_1_column3[i].style.backgroundColor = "#1396cb";
 
-        game_1_column4[i].style.fontSize = "0";
+        game_1_column4_text[i].style.fontSize = "0";
         game_1_column4[i].style.backgroundColor = "#1396cb";
 
-        game_1_column5[i].style.fontSize = "0";
+        game_1_column5_text[i].style.fontSize = "0";
         game_1_column5[i].style.backgroundColor = "#1396cb";
 
-        game_1_column6[i].style.fontSize = "0";
+        game_1_column6_text[i].style.fontSize = "0";
         game_1_column6[i].style.backgroundColor = "#1396cb";
         i++;
     }
@@ -718,187 +791,283 @@ function gameStep(num1, num2) {
 
     if(num2 === columnStep) {
         __game1_column_complete[columnStep] = 1;
-        game_1_column1[columnStep-1].style.fontSize = "20px";
-        game_1_column2[columnStep-1].style.fontSize = "20px";
-        game_1_column3[columnStep-1].style.fontSize = "20px";
-        game_1_column4[columnStep-1].style.fontSize = "20px";
-        game_1_column5[columnStep-1].style.fontSize = "20px";
-        game_1_column6[columnStep-1].style.fontSize = "20px";
+        game_1_column1_text[columnStep-1].style.fontSize = "20px";
+        game_1_column2_text[columnStep-1].style.fontSize = "20px";
+        game_1_column3_text[columnStep-1].style.fontSize = "20px";
+        game_1_column4_text[columnStep-1].style.fontSize = "20px";
+        game_1_column5_text[columnStep-1].style.fontSize = "20px";
+        game_1_column6_text[columnStep-1].style.fontSize = "20px";
         columnStep++;
     }
 
-    if(num1 === 1 && game_1_column1[num2-1].innerHTML === "x") {
+    if(num1 === 1 && game_1_column1_text[num2-1].innerHTML === "x") {
         game_1_column1[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
-            game_1_column1[j].style.transform = "rotateX(360deg)"
-            game_1_column2[j].style.transform = "rotateX(360deg)"
-            game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column4[j].style.transform = "rotateX(360deg)"
-            game_1_column5[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            j++;
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.transform = "rotateX(360deg)";
+                    game_1_column2[j].style.transform = "rotateX(360deg)";
+                    game_1_column3[j].style.transform = "rotateX(360deg)";
+                    game_1_column4[j].style.transform = "rotateX(360deg)";
+                    game_1_column5[j].style.transform = "rotateX(360deg)";
+                    game_1_column6[j].style.transform = "rotateX(360deg)";
+                }, j * 100);
+            })(j++)
         }
         j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
-                    game_1_column1[j].style.fontSize = "20px";
-                    game_1_column2[j].style.fontSize = "20px";
-                    game_1_column3[j].style.fontSize = "20px";
-                    game_1_column4[j].style.fontSize = "20px";
-                    game_1_column5[j].style.fontSize = "20px";
-                    game_1_column6[j].style.fontSize = "20px";
-                }, 1000);
+                    game_1_column1[j].style.backgroundColor = "transparent";
+                    game_1_column2[j].style.backgroundColor = "transparent";
+                    game_1_column3[j].style.backgroundColor = "transparent";
+                    game_1_column4[j].style.backgroundColor = "transparent";
+                    game_1_column5[j].style.backgroundColor = "transparent";
+                    game_1_column6[j].style.backgroundColor = "transparent";
+                }, 1000 + j * 50);
+            })(j++)
+        }
+        j = num2;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1_text[j].style.fontSize = "20px";
+                    game_1_column2_text[j].style.fontSize = "20px";
+                    game_1_column3_text[j].style.fontSize = "20px";
+                    game_1_column4_text[j].style.fontSize = "20px";
+                    game_1_column5_text[j].style.fontSize = "20px";
+                    game_1_column6_text[j].style.fontSize = "20px";
+                }, 300 + j * 100);
             })(j++)
         }
         gameover = false;
-    } else if(num1 === 1 && game_1_column1[num2-1].innerHTML !== "x") {
+    } else if(num1 === 1 && game_1_column1_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "#3aeb7e";
     }
-    if(num1 === 2 && game_1_column2[num2-1].innerHTML === "x") {
+    if(num1 === 2 && game_1_column2_text[num2-1].innerHTML === "x") {
         game_1_column2[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
-            game_1_column1[j].style.transform = "rotateX(360deg)"
-            game_1_column2[j].style.transform = "rotateX(360deg)"
-            game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column4[j].style.transform = "rotateX(360deg)"
-            game_1_column5[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            j++;
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.transform = "rotateX(360deg)";
+                    game_1_column2[j].style.transform = "rotateX(360deg)";
+                    game_1_column3[j].style.transform = "rotateX(360deg)";
+                    game_1_column4[j].style.transform = "rotateX(360deg)";
+                    game_1_column5[j].style.transform = "rotateX(360deg)";
+                    game_1_column6[j].style.transform = "rotateX(360deg)";
+                }, j * 100);
+            })(j++)
         }
         j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
-                    game_1_column1[j].style.fontSize = "20px";
-                    game_1_column2[j].style.fontSize = "20px";
-                    game_1_column3[j].style.fontSize = "20px";
-                    game_1_column4[j].style.fontSize = "20px";
-                    game_1_column5[j].style.fontSize = "20px";
-                    game_1_column6[j].style.fontSize = "20px";
-                }, 1000);
+                    game_1_column1[j].style.backgroundColor = "transparent";
+                    game_1_column2[j].style.backgroundColor = "transparent";
+                    game_1_column3[j].style.backgroundColor = "transparent";
+                    game_1_column4[j].style.backgroundColor = "transparent";
+                    game_1_column5[j].style.backgroundColor = "transparent";
+                    game_1_column6[j].style.backgroundColor = "transparent";
+                }, 1000 + j * 50);
+            })(j++)
+        }
+        j = num2;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1_text[j].style.fontSize = "20px";
+                    game_1_column2_text[j].style.fontSize = "20px";
+                    game_1_column3_text[j].style.fontSize = "20px";
+                    game_1_column4_text[j].style.fontSize = "20px";
+                    game_1_column5_text[j].style.fontSize = "20px";
+                    game_1_column6_text[j].style.fontSize = "20px";
+                }, 300 + j * 100);
             })(j++)
         }
         gameover = false;
-    } else if(num1 === 2 && game_1_column2[num2-1].innerHTML !== "x") {
+    } else if(num1 === 2 && game_1_column2_text[num2-1].innerHTML !== "x") {
         game_1_column2[num2-1].style.backgroundColor = "#3aeb7e";
     }
-    if(num1 === 3 && game_1_column3[num2-1].innerHTML === "x") {
+    if(num1 === 3 && game_1_column3_text[num2-1].innerHTML === "x") {
         game_1_column3[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
-            game_1_column1[j].style.transform = "rotateX(360deg)"
-            game_1_column2[j].style.transform = "rotateX(360deg)"
-            game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column4[j].style.transform = "rotateX(360deg)"
-            game_1_column5[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            j++;
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.transform = "rotateX(360deg)";
+                    game_1_column2[j].style.transform = "rotateX(360deg)";
+                    game_1_column3[j].style.transform = "rotateX(360deg)";
+                    game_1_column4[j].style.transform = "rotateX(360deg)";
+                    game_1_column5[j].style.transform = "rotateX(360deg)";
+                    game_1_column6[j].style.transform = "rotateX(360deg)";
+                }, j * 100);
+            })(j++)
         }
         j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
-                    game_1_column1[j].style.fontSize = "20px";
-                    game_1_column2[j].style.fontSize = "20px";
-                    game_1_column3[j].style.fontSize = "20px";
-                    game_1_column4[j].style.fontSize = "20px";
-                    game_1_column5[j].style.fontSize = "20px";
-                    game_1_column6[j].style.fontSize = "20px";
-                }, 1000);
+                    game_1_column1[j].style.backgroundColor = "transparent";
+                    game_1_column2[j].style.backgroundColor = "transparent";
+                    game_1_column3[j].style.backgroundColor = "transparent";
+                    game_1_column4[j].style.backgroundColor = "transparent";
+                    game_1_column5[j].style.backgroundColor = "transparent";
+                    game_1_column6[j].style.backgroundColor = "transparent";
+                }, 1000 + j * 50);
+            })(j++)
+        }
+        j = num2;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1_text[j].style.fontSize = "20px";
+                    game_1_column2_text[j].style.fontSize = "20px";
+                    game_1_column3_text[j].style.fontSize = "20px";
+                    game_1_column4_text[j].style.fontSize = "20px";
+                    game_1_column5_text[j].style.fontSize = "20px";
+                    game_1_column6_text[j].style.fontSize = "20px";
+                }, 300 + j * 100);
             })(j++)
         }
         gameover = false;
-    } else if(num1 === 3 && game_1_column3[num2-1].innerHTML !== "x") {
+    } else if(num1 === 3 && game_1_column3_text[num2-1].innerHTML !== "x") {
         game_1_column3[num2-1].style.backgroundColor = "#3aeb7e";
     }
-    if(num1 === 4 && game_1_column4[num2-1].innerHTML === "x") {
+    if(num1 === 4 && game_1_column4_text[num2-1].innerHTML === "x") {
         game_1_column4[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
-            game_1_column1[j].style.transform = "rotateX(360deg)"
-            game_1_column2[j].style.transform = "rotateX(360deg)"
-            game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column4[j].style.transform = "rotateX(360deg)"
-            game_1_column5[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            j++;
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.transform = "rotateX(360deg)";
+                    game_1_column2[j].style.transform = "rotateX(360deg)";
+                    game_1_column3[j].style.transform = "rotateX(360deg)";
+                    game_1_column4[j].style.transform = "rotateX(360deg)";
+                    game_1_column5[j].style.transform = "rotateX(360deg)";
+                    game_1_column6[j].style.transform = "rotateX(360deg)";
+                }, j * 100);
+            })(j++)
         }
         j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
-                    game_1_column1[j].style.fontSize = "20px";
-                    game_1_column2[j].style.fontSize = "20px";
-                    game_1_column3[j].style.fontSize = "20px";
-                    game_1_column4[j].style.fontSize = "20px";
-                    game_1_column5[j].style.fontSize = "20px";
-                    game_1_column6[j].style.fontSize = "20px";
-                }, 1000);
+                    game_1_column1[j].style.backgroundColor = "transparent";
+                    game_1_column2[j].style.backgroundColor = "transparent";
+                    game_1_column3[j].style.backgroundColor = "transparent";
+                    game_1_column4[j].style.backgroundColor = "transparent";
+                    game_1_column5[j].style.backgroundColor = "transparent";
+                    game_1_column6[j].style.backgroundColor = "transparent";
+                }, 1000 + j * 50);
+            })(j++)
+        }
+        j = num2;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1_text[j].style.fontSize = "20px";
+                    game_1_column2_text[j].style.fontSize = "20px";
+                    game_1_column3_text[j].style.fontSize = "20px";
+                    game_1_column4_text[j].style.fontSize = "20px";
+                    game_1_column5_text[j].style.fontSize = "20px";
+                    game_1_column6_text[j].style.fontSize = "20px";
+                }, 300 + j * 100);
             })(j++)
         }
         gameover = false;
-    } else if(num1 === 4 && game_1_column4[num2-1].innerHTML !== "x") {
+    } else if(num1 === 4 && game_1_column4_text[num2-1].innerHTML !== "x") {
         game_1_column4[num2-1].style.backgroundColor = "#3aeb7e";
     }
-    if(num1 === 5 && game_1_column5[num2-1].innerHTML === "x") {
+    if(num1 === 5 && game_1_column5_text[num2-1].innerHTML === "x") {
         game_1_column5[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
-            game_1_column1[j].style.transform = "rotateX(360deg)"
-            game_1_column2[j].style.transform = "rotateX(360deg)"
-            game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column4[j].style.transform = "rotateX(360deg)"
-            game_1_column5[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            j++;
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.transform = "rotateX(360deg)";
+                    game_1_column2[j].style.transform = "rotateX(360deg)";
+                    game_1_column3[j].style.transform = "rotateX(360deg)";
+                    game_1_column4[j].style.transform = "rotateX(360deg)";
+                    game_1_column5[j].style.transform = "rotateX(360deg)";
+                    game_1_column6[j].style.transform = "rotateX(360deg)";
+                }, j * 100);
+            })(j++)
         }
         j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
-                    game_1_column1[j].style.fontSize = "20px";
-                    game_1_column2[j].style.fontSize = "20px";
-                    game_1_column3[j].style.fontSize = "20px";
-                    game_1_column4[j].style.fontSize = "20px";
-                    game_1_column5[j].style.fontSize = "20px";
-                    game_1_column6[j].style.fontSize = "20px";
-                }, 1000);
+                    game_1_column1[j].style.backgroundColor = "transparent";
+                    game_1_column2[j].style.backgroundColor = "transparent";
+                    game_1_column3[j].style.backgroundColor = "transparent";
+                    game_1_column4[j].style.backgroundColor = "transparent";
+                    game_1_column5[j].style.backgroundColor = "transparent";
+                    game_1_column6[j].style.backgroundColor = "transparent";
+                }, 1000 + j * 50);
+            })(j++)
+        }
+        j = num2;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1_text[j].style.fontSize = "20px";
+                    game_1_column2_text[j].style.fontSize = "20px";
+                    game_1_column3_text[j].style.fontSize = "20px";
+                    game_1_column4_text[j].style.fontSize = "20px";
+                    game_1_column5_text[j].style.fontSize = "20px";
+                    game_1_column6_text[j].style.fontSize = "20px";
+                }, 300 + j * 100);
             })(j++)
         }
         gameover = false;
-    } else if(num1 === 5 && game_1_column5[num2-1].innerHTML !== "x") {
+    } else if(num1 === 5 && game_1_column5_text[num2-1].innerHTML !== "x") {
         game_1_column5[num2-1].style.backgroundColor = "#3aeb7e";
     }
-    if(num1 === 6 && game_1_column6[num2-1].innerHTML === "x") {
+    if(num1 === 6 && game_1_column6_text[num2-1].innerHTML === "x") {
         game_1_column6[num2-1].style.backgroundColor = "#dd2121";
         let j = num2;
         while(j < 10) {
-            game_1_column1[j].style.transform = "rotateX(360deg)"
-            game_1_column2[j].style.transform = "rotateX(360deg)"
-            game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column4[j].style.transform = "rotateX(360deg)"
-            game_1_column5[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            j++;
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1[j].style.transform = "rotateX(360deg)";
+                    game_1_column2[j].style.transform = "rotateX(360deg)";
+                    game_1_column3[j].style.transform = "rotateX(360deg)";
+                    game_1_column4[j].style.transform = "rotateX(360deg)";
+                    game_1_column5[j].style.transform = "rotateX(360deg)";
+                    game_1_column6[j].style.transform = "rotateX(360deg)";
+                }, j * 100);
+            })(j++)
         }
         j = num2;
         while(j < 10) {
             (function(j) {
                 setTimeout(() => {
-                    game_1_column1[j].style.fontSize = "20px";
-                    game_1_column2[j].style.fontSize = "20px";
-                    game_1_column3[j].style.fontSize = "20px";
-                    game_1_column4[j].style.fontSize = "20px";
-                    game_1_column5[j].style.fontSize = "20px";
-                    game_1_column6[j].style.fontSize = "20px";
-                }, 1000);
+                    game_1_column1[j].style.backgroundColor = "transparent";
+                    game_1_column2[j].style.backgroundColor = "transparent";
+                    game_1_column3[j].style.backgroundColor = "transparent";
+                    game_1_column4[j].style.backgroundColor = "transparent";
+                    game_1_column5[j].style.backgroundColor = "transparent";
+                    game_1_column6[j].style.backgroundColor = "transparent";
+                }, 1000 + j * 50);
+            })(j++)
+        }
+        j = num2;
+        while(j < 10) {
+            (function(j) {
+                setTimeout(() => {
+                    game_1_column1_text[j].style.fontSize = "20px";
+                    game_1_column2_text[j].style.fontSize = "20px";
+                    game_1_column3_text[j].style.fontSize = "20px";
+                    game_1_column4_text[j].style.fontSize = "20px";
+                    game_1_column5_text[j].style.fontSize = "20px";
+                    game_1_column6_text[j].style.fontSize = "20px";
+                }, 300 + j * 100);
             })(j++)
         }
         gameover = false;
-    } else if(num1 === 6 && game_1_column6[num2-1].innerHTML !== "x") {
+    } else if(num1 === 6 && game_1_column6_text[num2-1].innerHTML !== "x") {
         game_1_column6[num2-1].style.backgroundColor = "#3aeb7e";
     }
 }
