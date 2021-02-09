@@ -734,8 +734,8 @@ function gameStep(num1, num2) {
             game_1_column1[j].style.transform = "rotateX(360deg)"
             game_1_column2[j].style.transform = "rotateX(360deg)"
             game_1_column3[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
-            game_1_column6[j].style.transform = "rotateX(360deg)"
+            game_1_column4[j].style.transform = "rotateX(360deg)"
+            game_1_column5[j].style.transform = "rotateX(360deg)"
             game_1_column6[j].style.transform = "rotateX(360deg)"
             j++;
         }
