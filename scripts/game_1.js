@@ -24,6 +24,8 @@ let game_1_Cofs8 = document.querySelector("#game_1_window__game__cofs__8");
 let game_1_Cofs9 = document.querySelector("#game_1_window__game__cofs__9");
 let game_1_Cofs10 = document.querySelector("#game_1_window__game__cofs__10");
 
+let game_1_allCofs = [game_1_Cofs1, game_1_Cofs2, game_1_Cofs3, game_1_Cofs4, game_1_Cofs5, game_1_Cofs6, game_1_Cofs7, game_1_Cofs8, game_1_Cofs9, game_1_Cofs10];
+
 
 let game_1__game__3__1 = document.querySelector("#game_1_window__game__3__wrap1");
 let game_1__game__3__2 = document.querySelector("#game_1_window__game__3__wrap2");
@@ -239,6 +241,42 @@ let game_1_window__game__6__10_text = document.querySelector("#game_1_window__ga
 let game_1_column6_text = [game_1_window__game__6__1_text, game_1_window__game__6__2_text, game_1_window__game__6__3_text, game_1_window__game__6__4_text, game_1_window__game__6__5_text, game_1_window__game__6__6_text, game_1_window__game__6__7_text, game_1_window__game__6__8_text, game_1_window__game__6__9_text, game_1_window__game__6__10_text];
 let game_1_column6 = [game_1_window__game__6__1, game_1_window__game__6__2, game_1_window__game__6__3,game_1_window__game__6__4, game_1_window__game__6__5, game_1_window__game__6__6, game_1_window__game__6__7, game_1_window__game__6__8, game_1_window__game__6__9, game_1_window__game__6__10];
 
+let game1_playBtn = document.querySelector("#betsLocation__table__play__btn");
+let isGameRunnin = true;
+game1_playBtn.onclick = function() {
+    if((game1_playBtn.innerHTML === "ЗАБРАТЬ" || game1_playBtn.innerHTML === "ЗАНОВО") && isGameRunnin){
+        columnStep = 1;
+        itemsCleaner();
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        isGameRunnin = false;
+
+        setTimeout(()=>{
+            gameover = true;
+        }, 2000);
+
+        let i = 0;
+        while(i < 10) {
+            (function(i){
+                setTimeout(()=>{
+                    game_1_allCofs[i].style.textShadow = "none";
+                }, i*50)
+            })(i++)
+        }
+    } else {
+        isGameRunnin = true;
+
+        let i = 0;
+        while(i < 10) {
+            (function(i){
+                setTimeout(()=>{
+                    game_1_allCofs[i].style.textShadow = "1px 0 5px purple, 0 1px 5px purple, -1px 0 5px purple, 0 -1px 5px purple";
+                }, i*50)
+            })(i++)
+        }
+
+        game_1_levelsChanger();
+    }
+}
 
 function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
     let i = 0;
@@ -410,6 +448,7 @@ game1_BCH.style.transform = "scale(1.2)";
 let canSwapLvl = true;
 let currentGame = 1;
 function game_1_levelsChanger(level = levelTempo) {
+    game1_playBtn.innerHTML = "ЗАБРАТЬ";
     if(canSwapLvl) {
         canSwapLvl = false;
     } else {
@@ -783,9 +822,12 @@ function itemsCleaner() {
 
 let __game1_column_complete = [0,0,0,0,0,0,0,0,0,0];
 let columnStep = 1;
+let canStart = false;
 
 function gameStep(num1, num2) {
-    if(num2 !== columnStep || !gameover) {
+    console.log("CLICK", "num2 = ", num2," columnStep = ", columnStep, "gameover = ", gameover);
+    game1_playBtn.innerHTML = "ЗАБРАТЬ";
+    if(num2 !== columnStep || !gameover || canStart) {
         return;
     }
 
@@ -801,6 +843,17 @@ function gameStep(num1, num2) {
     }
 
     if(num1 === 1 && game_1_column1_text[num2-1].innerHTML === "x") {
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        canStart = true;
+        let m = 0;
+        while(m < 10) {
+            (function(m){
+                setTimeout(()=>{
+                    game_1_allCofs[m].style.textShadow = "none";
+                }, m*50)
+            })(m++)
+        }
+
         game_1_column1[num2-1].style.backgroundColor = "#dd2121";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "transparent";
@@ -846,7 +899,10 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        gameover = false;
+        setTimeout(()=>{
+            gameover = false;
+            canStart = false;
+        },1500);
     } else if(num1 === 1 && game_1_column1_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "#3aeb7e";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
@@ -856,6 +912,17 @@ function gameStep(num1, num2) {
         game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 2 && game_1_column2_text[num2-1].innerHTML === "x") {
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        canStart = true;
+        let m = 0;
+        while(m < 10) {
+            (function(m){
+                setTimeout(()=>{
+                    game_1_allCofs[m].style.textShadow = "none";
+                }, m*50)
+            })(m++)
+        }
+
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "#dd2121";
         game_1_column3[num2-1].style.backgroundColor = "transparent";
@@ -901,7 +968,10 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        gameover = false;
+        setTimeout(()=>{
+            gameover = false;
+            canStart = false;
+        },1500);
     } else if(num1 === 2 && game_1_column2_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "#3aeb7e";
@@ -911,6 +981,17 @@ function gameStep(num1, num2) {
         game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 3 && game_1_column3_text[num2-1].innerHTML === "x") {
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        canStart = true;
+        let m = 0;
+        while(m < 10) {
+            (function(m){
+                setTimeout(()=>{
+                    game_1_allCofs[m].style.textShadow = "none";
+                }, m*50)
+            })(m++)
+        }
+
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "#dd2121";
@@ -956,7 +1037,10 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        gameover = false;
+        setTimeout(()=>{
+            gameover = false;
+            canStart = false;
+        },1500);
     } else if(num1 === 3 && game_1_column3_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
@@ -966,6 +1050,17 @@ function gameStep(num1, num2) {
         game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 4 && game_1_column4_text[num2-1].innerHTML === "x") {
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        canStart = true;
+        let m = 0;
+        while(m < 10) {
+            (function(m){
+                setTimeout(()=>{
+                    game_1_allCofs[m].style.textShadow = "none";
+                }, m*50)
+            })(m++)
+        }
+
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "transparent";
@@ -1011,7 +1106,10 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        gameover = false;
+        setTimeout(()=>{
+            gameover = false;
+            canStart = false;
+        },1500);
     } else if(num1 === 4 && game_1_column4_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
@@ -1021,6 +1119,17 @@ function gameStep(num1, num2) {
         game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 5 && game_1_column5_text[num2-1].innerHTML === "x") {
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        canStart = true;
+        let m = 0;
+        while(m < 10) {
+            (function(m){
+                setTimeout(()=>{
+                    game_1_allCofs[m].style.textShadow = "none";
+                }, m*50)
+            })(m++)
+        }
+
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "transparent";
@@ -1066,7 +1175,10 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        gameover = false;
+        setTimeout(()=>{
+            gameover = false;
+            canStart = false;
+        },1500);
     } else if(num1 === 5 && game_1_column5_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
@@ -1076,6 +1188,17 @@ function gameStep(num1, num2) {
         game_1_column6[num2-1].style.backgroundColor = "transparent";
     }
     if(num1 === 6 && game_1_column6_text[num2-1].innerHTML === "x") {
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        canStart = true;
+        let m = 0;
+        while(m < 10) {
+            (function(m){
+                setTimeout(()=>{
+                    game_1_allCofs[m].style.textShadow = "none";
+                }, m*50)
+            })(m++)
+        }
+
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
         game_1_column3[num2-1].style.backgroundColor = "transparent";
@@ -1121,7 +1244,10 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        gameover = false;
+        setTimeout(()=>{
+            gameover = false;
+            canStart = false;
+        },1500);
     } else if(num1 === 6 && game_1_column6_text[num2-1].innerHTML !== "x") {
         game_1_column1[num2-1].style.backgroundColor = "transparent";
         game_1_column2[num2-1].style.backgroundColor = "transparent";
