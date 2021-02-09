@@ -361,6 +361,14 @@ function game_1_levelsChanger(level = levelTempo) {
     }
 
     itemsCleaner();
+
+
+    if(levelTempo !== level) {
+        game1_tokens[levelTempo-1].style.boxShadow = "none";
+        game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
+        game1_tokens[levelTempo-1].style.transform = "none";
+    }
+
     setTimeout(()=>{
         let k = 0;
         while(k < 10) {
@@ -379,9 +387,6 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_BCH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_BCH.style.border = "none";
                 game1_BCH.style.transform = "scale(1.2)";
-                game1_tokens[levelTempo-1].style.boxShadow = "none";
-                game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
-                game1_tokens[levelTempo-1].style.transform = "none";
                 
                 i = 0;
                 while(i < 10) {
@@ -432,9 +437,6 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_XRP.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_XRP.style.border = "none";
                 game1_XRP.style.transform = "scale(1.2)";
-                game1_tokens[levelTempo-1].style.boxShadow = "none";
-                game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
-                game1_tokens[levelTempo-1].style.transform = "none";
                 
                 setTimeout(()=>{
                     game_1_window__game__3.style.display = "grid";
@@ -495,9 +497,6 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_LTC.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_LTC.style.border = "none";
                 game1_LTC.style.transform = "scale(1.2)";
-                game1_tokens[levelTempo-1].style.boxShadow = "none";
-                game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
-                game1_tokens[levelTempo-1].style.transform = "none";
 
                 setTimeout(()=>{
                     game_1_window__game__3.style.display = "grid";
@@ -557,9 +556,6 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_ETH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_ETH.style.border = "none";
                 game1_ETH.style.transform = "scale(1.2)";
-                game1_tokens[levelTempo-1].style.boxShadow = "none";
-                game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
-                game1_tokens[levelTempo-1].style.transform = "none";
                 
                 setTimeout(()=>{
                     game_1_window__game__3.style.display = "grid";
@@ -619,9 +615,6 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_BTC.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_BTC.style.border = "none";
                 game1_BTC.style.transform = "scale(1.2)";
-                game1_tokens[levelTempo-1].style.boxShadow = "none";
-                game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
-                game1_tokens[levelTempo-1].style.transform = "none";
 
                 setTimeout(()=>{
                     game_1_window__game__3.style.display = "grid";
