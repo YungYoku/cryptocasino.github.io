@@ -244,6 +244,11 @@ let game_1_column6 = [game_1_window__game__6__1, game_1_window__game__6__2, game
 let game1_playBtn = document.querySelector("#betsLocation__table__play__btn");
 let isGameRunnin = true;
 game1_playBtn.onclick = function() {
+    let audio = new Audio();
+    audio.src = 'imgs/game1Start.mp3';
+    audio.autoplay = true;
+
+
     if((game1_playBtn.innerHTML === "ЗАБРАТЬ" || game1_playBtn.innerHTML === "ЗАНОВО") && isGameRunnin){
         columnStep = 1;
         itemsCleaner();
