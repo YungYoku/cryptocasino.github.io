@@ -1218,12 +1218,12 @@ header {
     color: black;
     z-index: 6;
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 65px;
-    padding-top: 12px;
     box-shadow: 0 0 7px 1px #34dd8e;
-    text-align: center;
     transition: all 0.2s;
     cursor: default;
 }
@@ -1273,6 +1273,10 @@ header {
     font-size: 24px;
     color: #1396cb;
 }
+#betsLocation__table__options div img {
+    width: 30px;
+    height: 30px;
+}
 #betsLocation__table__options div:first-child {
     margin: 0 auto 15px auto;
 }
@@ -1286,15 +1290,15 @@ header {
 #betsLocation__table__play {
     width: 100%;
     grid-area: playBtn;
+    position: relative;
 }
 #betsLocation__table__play button {
-    background-color: transparent;
     border: 1px solid  #1396cb;
     box-shadow: 0 0 7px 2px #1396cb;
     width: 60%;
     height: 70px;
     color: white;
-    padding: 10px;
+    padding: 10px 10px 10px 18px;
     margin: 0 20%;
     transition: all 0.3s;
     cursor: pointer;
@@ -1304,6 +1308,7 @@ header {
     font-weight: 600;
     text-align: center;
     background-color: #1c1d1f;
+    position: relative;
 }
 #betsLocation__table__play button:hover {
     transform: scale(1.1);
@@ -1327,21 +1332,18 @@ header {
     .betsLocation__table__desk__coin {
         font-size: 30px;
         height: 65px;
-        padding-top: 10px;
     }
 }
 @media (max-width: 1500px) {
     .betsLocation__table__desk__coin {
         font-size: 20px;
         height: 65px;
-        padding-top: 16px;
     }
 }
 @media (max-width: 1300px) {
     .betsLocation__table__desk__coin {
         font-size: 16px;
         height: 50px;
-        padding-top: 10px;
     }
 }
 @media (max-width: 1200px) {
