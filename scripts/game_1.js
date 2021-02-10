@@ -244,12 +244,17 @@ let game_1_column6 = [game_1_window__game__6__1, game_1_window__game__6__2, game
 let game1_playBtn = document.querySelector("#betsLocation__table__play__btn");
 let isGameRunnin = true;
 game1_playBtn.onclick = function() {
-    let audio = new Audio();
-    audio.src = 'imgs/game1Start.mp3';
-    audio.autoplay = true;
+    if((game1_playBtn.innerHTML === "ЗАБРАТЬ" || game1_playBtn.innerHTML === "ЗАНОВО") && isGameRunnin && __game1_column_complete[0] !== 0){
+        game1_playBtn.style.cursor = "pointer";
+        game1_playBtn.style.animation = 'btnJump 1s';
+        setTimeout(()=>{
+            game1_playBtn.style.animation = 'none';
+        }, 1000);
 
-
-    if((game1_playBtn.innerHTML === "ЗАБРАТЬ" || game1_playBtn.innerHTML === "ЗАНОВО") && isGameRunnin){
+        let audio = new Audio();
+        audio.src = 'imgs/game1Start.mp3';
+        audio.autoplay = true;
+        
         columnStep = 1;
         itemsCleaner();
         game1_playBtn.innerHTML = "ИГРАТЬ";
@@ -268,7 +273,20 @@ game1_playBtn.onclick = function() {
             })(i++)
         }
     } else {
+        if(game1_playBtn.style.cursor === "not-allowed") {
+            return;
+        }
+        game1_playBtn.style.cursor = "not-allowed";
         isGameRunnin = true;
+
+        game1_playBtn.style.animation = 'btnJump 1s';
+        setTimeout(()=>{
+            game1_playBtn.style.animation = 'none';
+        }, 1000);
+
+        let audio = new Audio();
+        audio.src = 'imgs/game1Start.mp3';
+        audio.autoplay = true;
 
         let i = 0;
         while(i < 10) {
@@ -830,11 +848,12 @@ let columnStep = 1;
 let canStart = false;
 
 function gameStep(num1, num2) {
-    console.log("CLICK", "num2 = ", num2," columnStep = ", columnStep, "gameover = ", gameover);
     game1_playBtn.innerHTML = "ЗАБРАТЬ";
     if(num2 !== columnStep || !gameover || canStart) {
         return;
     }
+
+    game1_playBtn.style.cursor = "pointer";
 
     if(num2 === columnStep) {
         __game1_column_complete[columnStep] = 1;
