@@ -245,69 +245,8 @@ let game1_playBtn = document.querySelector("#betsLocation__table__play__btn");
 let isGameRunnin = false;
 let isBtnClicked = false;
 let isGaveOver = false;
-game1_playBtn.onclick = function () {
-    if (game1_playBtn.innerHTML === "ЗАБРАТЬ" && isGameRunnin && __game1_column_complete[0] !== 0 && !isBtnClicked && !isGaveOver) {
-        canSwapLvl = true
-        isBtnClicked = true;
-        setTimeout(() => {
-            isBtnClicked = false;
-        }, 700);
-        game1_playBtn.innerHTML = "ИГРАТЬ";
-        game1_playBtn.style.cursor = "pointer";
-        game1_playBtn.style.animation = 'btnJump 0.7s';
-        setTimeout(() => {
-            game1_playBtn.style.animation = 'none';
-        }, 700);
-
-        let audio = new Audio();
-        audio.src = 'imgs/game1Start.mp3';
-        audio.autoplay = true;
-
-        columnStep = 1;
-        itemsCleaner();
-        isGameRunnin = false;
-
-        gameover = true;
-
-        let i = 0;
-        while (i < 10) {
-            (function (i) {
-                setTimeout(() => {
-                    game_1_allCofs[i].style.textShadow = "none";
-                }, i * 50)
-            })(i++)
-        }
-    } else if (!isBtnClicked && game1_playBtn.style.cursor !== "not-allowed" && !isGaveOver) {
-        canSwapLvl = false;
-        isBtnClicked = true;
-        setTimeout(() => {
-            isBtnClicked = false;
-        }, 700);
-        game1_playBtn.innerHTML = "ЗАБРАТЬ";
-        game1_playBtn.style.cursor = "not-allowed";
-
-        game1_playBtn.style.animation = 'btnJump 0.7s';
-        setTimeout(() => {
-            game1_playBtn.style.animation = 'none';
-        }, 700);
-
-        let audio = new Audio();
-        audio.src = 'imgs/game1Start.mp3';
-        audio.autoplay = true;
-
-        let i = 0;
-        while (i < 10) {
-            (function (i) {
-                setTimeout(() => {
-                    game_1_allCofs[i].style.textShadow = "1px 0 5px purple, 0 1px 5px purple, -1px 0 5px purple, 0 -1px 5px purple";
-                }, i * 50)
-            })(i++)
-        }
-
-        game_1_levelsChanger();
-        isGameRunnin = true;
-    }
-}
+let columnStep = 1;
+let canStart = false;
 
 function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
     let i = 0;
@@ -492,6 +431,7 @@ function game_1_levelsChanger(level = levelTempo) {
     let i = 0;
 
     columnStep = 1;
+
 
     if (levelTempo !== level) {
         gameover = false;
@@ -853,17 +793,15 @@ function itemsCleaner() {
     }
 }
 
-let columnStep = 1;
-let canStart = false;
-
 function gameStep(num1, num2) {
-    if (num2 !== columnStep || !gameover || canStart || !isGameRunnin) {
+    debugger
+    if (num2 !== columnStep || canStart || !isGameRunnin || !gameover) {
         return;
     }
     game1_playBtn.style.cursor = "pointer";
 
     if (num2 === columnStep) {
-        __game1_column_complete[columnStep-1] = 1;
+        __game1_column_complete[columnStep - 1] = 1;
         game_1_column1_text[columnStep - 1].style.fontSize = "20px";
         game_1_column2_text[columnStep - 1].style.fontSize = "20px";
         game_1_column3_text[columnStep - 1].style.fontSize = "20px";
@@ -1322,5 +1260,104 @@ function gameStep(num1, num2) {
         game_1_column4[num2 - 1].style.backgroundColor = "transparent";
         game_1_column5[num2 - 1].style.backgroundColor = "transparent";
         game_1_column6[num2 - 1].style.backgroundColor = "#3aeb7e";
+    }
+}
+
+game1_playBtn.onclick = function () {
+    debugger
+    if (game1_playBtn.innerHTML === "ИГРАТЬ" && __game1_column_complete[0] !== 0 && !isGaveOver) {
+        itemsCleaner();
+        canSwapLvl = false;
+        isBtnClicked = true;
+        setTimeout(() => {
+            isBtnClicked = false;
+            gameover = true;
+        }, 700);
+        game1_playBtn.innerHTML = "ЗАБРАТЬ";
+        game1_playBtn.style.cursor = "not-allowed";
+
+        game1_playBtn.style.animation = 'btnJump 0.7s';
+        setTimeout(() => {
+            game1_playBtn.style.animation = 'none';
+        }, 700);
+
+        isGameRunnin = true;
+
+        let audio = new Audio();
+        audio.src = 'imgs/game1Start.mp3';
+        audio.autoplay = true;
+
+        let i = 0;
+        while (i < 10) {
+            (function (i) {
+                setTimeout(() => {
+                    game_1_allCofs[i].style.textShadow = "1px 0 5px purple, 0 1px 5px purple, -1px 0 5px purple, 0 -1px 5px purple";
+                }, i * 50)
+            })(i++)
+        }
+
+        columnStep = 1;
+        game_1_levelsChanger();
+    }
+    if (game1_playBtn.innerHTML === "ЗАБРАТЬ" && isGameRunnin && __game1_column_complete[0] !== 0 && !isBtnClicked && !isGaveOver) {
+        canSwapLvl = true;
+        isBtnClicked = true;
+        setTimeout(() => {
+            isBtnClicked = false;
+        }, 700);
+        game1_playBtn.innerHTML = "ИГРАТЬ";
+        game1_playBtn.style.cursor = "pointer";
+        game1_playBtn.style.animation = 'btnJump 0.7s';
+        setTimeout(() => {
+            game1_playBtn.style.animation = 'none';
+        }, 700);
+
+        let audio = new Audio();
+        audio.src = 'imgs/game1Start.mp3';
+        audio.autoplay = true;
+
+        columnStep = 1;
+        itemsCleaner();
+        isGameRunnin = false;
+
+        let i = 0;
+        while (i < 10) {
+            (function (i) {
+                setTimeout(() => {
+                    game_1_allCofs[i].style.textShadow = "none";
+                }, i * 50)
+            })(i++)
+        }
+    } else if (!isBtnClicked && game1_playBtn.style.cursor !== "not-allowed" && !isGaveOver) {
+        canSwapLvl = false;
+        isBtnClicked = true;
+        setTimeout(() => {
+            isBtnClicked = false;
+        }, 700);
+        game1_playBtn.innerHTML = "ЗАБРАТЬ";
+        game1_playBtn.style.cursor = "not-allowed";
+
+        game1_playBtn.style.animation = 'btnJump 0.7s';
+        setTimeout(() => {
+            game1_playBtn.style.animation = 'none';
+        }, 700);
+
+        isGameRunnin = true;
+
+        let audio = new Audio();
+        audio.src = 'imgs/game1Start.mp3';
+        audio.autoplay = true;
+
+        let i = 0;
+        while (i < 10) {
+            (function (i) {
+                setTimeout(() => {
+                    game_1_allCofs[i].style.textShadow = "1px 0 5px purple, 0 1px 5px purple, -1px 0 5px purple, 0 -1px 5px purple";
+                }, i * 50)
+            })(i++)
+        }
+
+        columnStep = 1;
+        game_1_levelsChanger();
     }
 }
