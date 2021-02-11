@@ -134,7 +134,7 @@ let game_1_window__game__2__9_text = document.querySelector("#game_1_window__gam
 let game_1_window__game__2__10_text = document.querySelector("#game_1_window__game__2__10-text");
 
 let game_1_column2_text = [game_1_window__game__2__1_text, game_1_window__game__2__2_text, game_1_window__game__2__3_text, game_1_window__game__2__4_text, game_1_window__game__2__5_text, game_1_window__game__2__6_text, game_1_window__game__2__7_text, game_1_window__game__2__8_text, game_1_window__game__2__9_text, game_1_window__game__2__10_text];
-let game_1_column2 = [game_1_window__game__2__1, game_1_window__game__2__2, game_1_window__game__2__3,game_1_window__game__2__4, game_1_window__game__2__5, game_1_window__game__2__6, game_1_window__game__2__7, game_1_window__game__2__8, game_1_window__game__2__9, game_1_window__game__2__10];
+let game_1_column2 = [game_1_window__game__2__1, game_1_window__game__2__2, game_1_window__game__2__3, game_1_window__game__2__4, game_1_window__game__2__5, game_1_window__game__2__6, game_1_window__game__2__7, game_1_window__game__2__8, game_1_window__game__2__9, game_1_window__game__2__10];
 
 
 let game_1_window__game__3__1 = document.querySelector("#game_1_window__game__3__1");
@@ -160,7 +160,7 @@ let game_1_window__game__3__9_text = document.querySelector("#game_1_window__gam
 let game_1_window__game__3__10_text = document.querySelector("#game_1_window__game__3__10-text");
 
 let game_1_column3_text = [game_1_window__game__3__1_text, game_1_window__game__3__2_text, game_1_window__game__3__3_text, game_1_window__game__3__4_text, game_1_window__game__3__5_text, game_1_window__game__3__6_text, game_1_window__game__3__7_text, game_1_window__game__3__8_text, game_1_window__game__3__9_text, game_1_window__game__3__10_text];
-let game_1_column3 = [game_1_window__game__3__1, game_1_window__game__3__2, game_1_window__game__3__3,game_1_window__game__3__4, game_1_window__game__3__5, game_1_window__game__3__6, game_1_window__game__3__7, game_1_window__game__3__8, game_1_window__game__3__9, game_1_window__game__3__10];
+let game_1_column3 = [game_1_window__game__3__1, game_1_window__game__3__2, game_1_window__game__3__3, game_1_window__game__3__4, game_1_window__game__3__5, game_1_window__game__3__6, game_1_window__game__3__7, game_1_window__game__3__8, game_1_window__game__3__9, game_1_window__game__3__10];
 
 
 let game_1_window__game__4__1 = document.querySelector("#game_1_window__game__4__1");
@@ -186,7 +186,7 @@ let game_1_window__game__4__9_text = document.querySelector("#game_1_window__gam
 let game_1_window__game__4__10_text = document.querySelector("#game_1_window__game__4__10-text");
 
 let game_1_column4_text = [game_1_window__game__4__1_text, game_1_window__game__4__2_text, game_1_window__game__4__3_text, game_1_window__game__4__4_text, game_1_window__game__4__5_text, game_1_window__game__4__6_text, game_1_window__game__4__7_text, game_1_window__game__4__8_text, game_1_window__game__4__9_text, game_1_window__game__4__10_text];
-let game_1_column4 = [game_1_window__game__4__1, game_1_window__game__4__2, game_1_window__game__4__3,game_1_window__game__4__4, game_1_window__game__4__5, game_1_window__game__4__6, game_1_window__game__4__7, game_1_window__game__4__8, game_1_window__game__4__9, game_1_window__game__4__10];
+let game_1_column4 = [game_1_window__game__4__1, game_1_window__game__4__2, game_1_window__game__4__3, game_1_window__game__4__4, game_1_window__game__4__5, game_1_window__game__4__6, game_1_window__game__4__7, game_1_window__game__4__8, game_1_window__game__4__9, game_1_window__game__4__10];
 
 
 let game_1_window__game__5__1 = document.querySelector("#game_1_window__game__5__1");
@@ -213,7 +213,7 @@ let game_1_window__game__5__9_text = document.querySelector("#game_1_window__gam
 let game_1_window__game__5__10_text = document.querySelector("#game_1_window__game__5__10-text");
 
 let game_1_column5_text = [game_1_window__game__5__1_text, game_1_window__game__5__2_text, game_1_window__game__5__3_text, game_1_window__game__5__4_text, game_1_window__game__5__5_text, game_1_window__game__5__6_text, game_1_window__game__5__7_text, game_1_window__game__5__8_text, game_1_window__game__5__9_text, game_1_window__game__5__10_text];
-let game_1_column5 = [game_1_window__game__5__1, game_1_window__game__5__2, game_1_window__game__5__3,game_1_window__game__5__4, game_1_window__game__5__5, game_1_window__game__5__6, game_1_window__game__5__7, game_1_window__game__5__8, game_1_window__game__5__9, game_1_window__game__5__10];
+let game_1_column5 = [game_1_window__game__5__1, game_1_window__game__5__2, game_1_window__game__5__3, game_1_window__game__5__4, game_1_window__game__5__5, game_1_window__game__5__6, game_1_window__game__5__7, game_1_window__game__5__8, game_1_window__game__5__9, game_1_window__game__5__10];
 
 
 let game_1_window__game__6__1 = document.querySelector("#game_1_window__game__6__1");
@@ -239,65 +239,73 @@ let game_1_window__game__6__9_text = document.querySelector("#game_1_window__gam
 let game_1_window__game__6__10_text = document.querySelector("#game_1_window__game__6__10-text");
 
 let game_1_column6_text = [game_1_window__game__6__1_text, game_1_window__game__6__2_text, game_1_window__game__6__3_text, game_1_window__game__6__4_text, game_1_window__game__6__5_text, game_1_window__game__6__6_text, game_1_window__game__6__7_text, game_1_window__game__6__8_text, game_1_window__game__6__9_text, game_1_window__game__6__10_text];
-let game_1_column6 = [game_1_window__game__6__1, game_1_window__game__6__2, game_1_window__game__6__3,game_1_window__game__6__4, game_1_window__game__6__5, game_1_window__game__6__6, game_1_window__game__6__7, game_1_window__game__6__8, game_1_window__game__6__9, game_1_window__game__6__10];
+let game_1_column6 = [game_1_window__game__6__1, game_1_window__game__6__2, game_1_window__game__6__3, game_1_window__game__6__4, game_1_window__game__6__5, game_1_window__game__6__6, game_1_window__game__6__7, game_1_window__game__6__8, game_1_window__game__6__9, game_1_window__game__6__10];
 
 let game1_playBtn = document.querySelector("#betsLocation__table__play__btn");
-let isGameRunnin = true;
-game1_playBtn.onclick = function() {
-    if((game1_playBtn.innerHTML === "ЗАБРАТЬ" || game1_playBtn.innerHTML === "ЗАНОВО") && isGameRunnin && __game1_column_complete[0] !== 0){
+let isGameRunnin = false;
+let isBtnClicked = false;
+let isGaveOver = false;
+game1_playBtn.onclick = function () {
+    if (game1_playBtn.innerHTML === "ЗАБРАТЬ" && isGameRunnin && __game1_column_complete[0] !== 0 && !isBtnClicked && !isGaveOver) {
+        canSwapLvl = true
+        isBtnClicked = true;
+        setTimeout(() => {
+            isBtnClicked = false;
+        }, 700);
+        game1_playBtn.innerHTML = "ИГРАТЬ";
         game1_playBtn.style.cursor = "pointer";
-        game1_playBtn.style.animation = 'btnJump 1s';
-        setTimeout(()=>{
+        game1_playBtn.style.animation = 'btnJump 0.7s';
+        setTimeout(() => {
             game1_playBtn.style.animation = 'none';
-        }, 1000);
+        }, 700);
 
         let audio = new Audio();
         audio.src = 'imgs/game1Start.mp3';
         audio.autoplay = true;
-        
+
         columnStep = 1;
         itemsCleaner();
-        game1_playBtn.innerHTML = "ИГРАТЬ";
         isGameRunnin = false;
 
-        setTimeout(()=>{
-            gameover = true;
-        }, 2000);
+        gameover = true;
 
         let i = 0;
-        while(i < 10) {
-            (function(i){
-                setTimeout(()=>{
+        while (i < 10) {
+            (function (i) {
+                setTimeout(() => {
                     game_1_allCofs[i].style.textShadow = "none";
-                }, i*50)
+                }, i * 50)
             })(i++)
         }
-    } else {
-        if(game1_playBtn.style.cursor === "not-allowed") {
-            return;
-        }
+    } else if (!isBtnClicked && game1_playBtn.style.cursor !== "not-allowed" && !isGaveOver) {
+        canSwapLvl = false;
+        isBtnClicked = true;
+        setTimeout(() => {
+            isBtnClicked = false;
+        }, 700);
+        game1_playBtn.innerHTML = "ЗАБРАТЬ";
         game1_playBtn.style.cursor = "not-allowed";
-        isGameRunnin = true;
 
-        game1_playBtn.style.animation = 'btnJump 1s';
-        setTimeout(()=>{
+        game1_playBtn.style.animation = 'btnJump 0.7s';
+        setTimeout(() => {
             game1_playBtn.style.animation = 'none';
-        }, 1000);
+        }, 700);
 
         let audio = new Audio();
         audio.src = 'imgs/game1Start.mp3';
         audio.autoplay = true;
 
         let i = 0;
-        while(i < 10) {
-            (function(i){
-                setTimeout(()=>{
+        while (i < 10) {
+            (function (i) {
+                setTimeout(() => {
                     game_1_allCofs[i].style.textShadow = "1px 0 5px purple, 0 1px 5px purple, -1px 0 5px purple, 0 -1px 5px purple";
-                }, i*50)
+                }, i * 50)
             })(i++)
         }
 
         game_1_levelsChanger();
+        isGameRunnin = true;
     }
 }
 
@@ -305,30 +313,30 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
     let i = 0;
     let __game_1_column = [];
 
-    switch(coin) {
-        case 1: 
-            while(i < 10) {
+    switch (coin) {
+        case 1:
+            while (i < 10) {
                 __game_1_column[i] = Math.round(Math.random());
-                
-                if(__game_1_column[i]) {
+
+                if (__game_1_column[i]) {
                     array1[i].innerHTML = "BCH";
                     array2[i].innerHTML = "x";
                 } else {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "BCH";
                 }
-            i++;
+                i++;
             }
             break;
-        case 2: 
-            while(i < 10) {
+        case 2:
+            while (i < 10) {
                 __game_1_column[i] = Math.round(Math.random() * 4 - 2);
-        
-                if(__game_1_column[i] === 0) {
+
+                if (__game_1_column[i] === 0) {
                     array1[i].innerHTML = "XRP";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 1) {
+                } else if (__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "XRP";
                     array3[i].innerHTML = "x";
@@ -337,24 +345,24 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "XRP";
                 }
-            i++;
+                i++;
             }
             break;
-        case 3: 
-            while(i < 10) {
+        case 3:
+            while (i < 10) {
                 __game_1_column[i] = Math.round(Math.random() * 5 - 2);
-        
-                if(__game_1_column[i] === 0) {
+
+                if (__game_1_column[i] === 0) {
                     array1[i].innerHTML = "LTC";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 1) {
+                } else if (__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "LTC";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 2) {
+                } else if (__game_1_column[i] === 2) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "LTC";
@@ -365,32 +373,32 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "LTC";
                 }
-            i++;
+                i++;
             }
             break;
-        case 4: 
-            while(i < 10) {
+        case 4:
+            while (i < 10) {
                 __game_1_column[i] = Math.round(Math.random() * 6 - 2);
-        
-                if(__game_1_column[i] === 0) {
+
+                if (__game_1_column[i] === 0) {
                     array1[i].innerHTML = "ETH";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 1) {
+                } else if (__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "ETH";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 2) {
+                } else if (__game_1_column[i] === 2) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "ETH";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 3) {
+                } else if (__game_1_column[i] === 3) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
@@ -403,42 +411,42 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "ETH";
                 }
-            i++;
+                i++;
             }
             break;
-        case 5: 
-            while(i < 10) {
+        case 5:
+            while (i < 10) {
                 __game_1_column[i] = Math.round(Math.random() * 7 - 2);
-        
-                if(__game_1_column[i] === 0) {
+
+                if (__game_1_column[i] === 0) {
                     array1[i].innerHTML = "BTC";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 1) {
+                } else if (__game_1_column[i] === 1) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "BTC";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 2) {
+                } else if (__game_1_column[i] === 2) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "BTC";
                     array4[i].innerHTML = "x";
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 3) {
+                } else if (__game_1_column[i] === 3) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
                     array4[i].innerHTML = "BTC";
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "x";
-                } else if(__game_1_column[i] === 4)  {
+                } else if (__game_1_column[i] === 4) {
                     array1[i].innerHTML = "x";
                     array2[i].innerHTML = "x";
                     array3[i].innerHTML = "x";
@@ -453,7 +461,7 @@ function gameRandSpawn(coin, array1, array2, array3, array4, array5, array6) {
                     array5[i].innerHTML = "x";
                     array6[i].innerHTML = "BTC";
                 }
-            i++;
+                i++;
             }
             break;
     }
@@ -471,26 +479,25 @@ game1_BCH.style.transform = "scale(1.2)";
 let canSwapLvl = true;
 let currentGame = 1;
 function game_1_levelsChanger(level = levelTempo) {
-    game1_playBtn.innerHTML = "ЗАБРАТЬ";
-    if(canSwapLvl) {
+    if (canSwapLvl) {
         canSwapLvl = false;
     } else {
         return;
     }
-    if(game1FirstClickOnLevel) {
-        if(level === 1) levelTempo = 5;
-        else if(level === 5) levelTempo = 1;
+    if (game1FirstClickOnLevel) {
+        if (level === 1) levelTempo = 5;
+        else if (level === 5) levelTempo = 1;
         game1FirstClickOnLevel = false;
     }
     let i = 0;
 
     columnStep = 1;
 
-    if(levelTempo !== level) {
+    if (levelTempo !== level) {
         gameover = false;
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = true;
-        }, 2000);
+        }, 700);
     } else {
         gameover = true;
     }
@@ -498,15 +505,15 @@ function game_1_levelsChanger(level = levelTempo) {
     itemsCleaner();
 
 
-    if(levelTempo !== level) {
-        game1_tokens[levelTempo-1].style.boxShadow = "none";
-        game1_tokens[levelTempo-1].style.border = "3px solid #1396cb";
-        game1_tokens[levelTempo-1].style.transform = "none";
+    if (levelTempo !== level) {
+        game1_tokens[levelTempo - 1].style.boxShadow = "none";
+        game1_tokens[levelTempo - 1].style.border = "3px solid #1396cb";
+        game1_tokens[levelTempo - 1].style.transform = "none";
     }
 
-    setTimeout(()=>{
+    setTimeout(() => {
         let k = 0;
-        while(k < 10) {
+        while (k < 10) {
             game_1_column1[k].style.transition = "transform 2s";
             game_1_column2[k].style.transition = "transform 2s";
             game_1_column3[k].style.transition = "transform 2s";
@@ -515,34 +522,34 @@ function game_1_levelsChanger(level = levelTempo) {
             game_1_column6[k].style.transition = "transform 2s";
             k++;
         }
-        switch(level) {
+        switch (level) {
             case 1:
                 currentGame = 1;
                 gameRandSpawn(currentGame, game_1_column1_text, game_1_column2_text);
                 game1_BCH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_BCH.style.border = "none";
                 game1_BCH.style.transform = "scale(1.2)";
-                
+
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
-                            game_1__game__3__divs[9-i].style.opacity = "0";
-                            game_1__game__4__divs[9-i].style.opacity = "0";
-                            game_1__game__5__divs[9-i].style.opacity = "0";
-                            game_1__game__6__divs[9-i].style.opacity = "0";
-                        }, i*100);
+                            game_1__game__3__divs[9 - i].style.opacity = "0";
+                            game_1__game__4__divs[9 - i].style.opacity = "0";
+                            game_1__game__5__divs[9 - i].style.opacity = "0";
+                            game_1__game__6__divs[9 - i].style.opacity = "0";
+                        }, i * 100);
                     })(i++)
                 }
 
-                if(levelTempo > level) {
-                    setTimeout(()=>{
+                if (levelTempo > level) {
+                    setTimeout(() => {
                         game_1_window__game__3.style.display = "none";
                         game_1_window__game__4.style.display = "none";
                         game_1_window__game__5.style.display = "none";
                         game_1_window__game__6.style.display = "none";
                     }, 1000);
-                    setTimeout(()=>{
+                    setTimeout(() => {
                         game_1_window__game.style.width = "220px";
                         game_1_window__game.style.gridTemplate = "auto / 76px 76px 0 0 0 0";
                         game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 . . . .'";
@@ -572,37 +579,37 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_XRP.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_XRP.style.border = "none";
                 game1_XRP.style.transform = "scale(1.2)";
-                
-                setTimeout(()=>{
+
+                setTimeout(() => {
                     game_1_window__game__3.style.display = "grid";
                 }, 1000);
 
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
                             game_1__game__3__divs[i].style.opacity = "1";
-                        }, 1100 + i*100);
+                        }, 1100 + i * 100);
                     })(i++)
                 }
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
-                            game_1__game__4__divs[9-i].style.opacity = "0";
-                            game_1__game__5__divs[9-i].style.opacity = "0";
-                            game_1__game__6__divs[9-i].style.opacity = "0";
-                        }, i*100);
+                            game_1__game__4__divs[9 - i].style.opacity = "0";
+                            game_1__game__5__divs[9 - i].style.opacity = "0";
+                            game_1__game__6__divs[9 - i].style.opacity = "0";
+                        }, i * 100);
                     })(i++)
                 }
 
-                if(levelTempo > level) {
-                    setTimeout(()=>{
+                if (levelTempo > level) {
+                    setTimeout(() => {
                         game_1_window__game__4.style.display = "none";
                         game_1_window__game__5.style.display = "none";
                         game_1_window__game__6.style.display = "none";
                     }, 1000);
-                    setTimeout(()=>{
+                    setTimeout(() => {
                         game_1_window__game.style.width = "316px";
                         game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 0 0 0";
                         game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 . . .'";
@@ -633,35 +640,35 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_LTC.style.border = "none";
                 game1_LTC.style.transform = "scale(1.2)";
 
-                setTimeout(()=>{
+                setTimeout(() => {
                     game_1_window__game__3.style.display = "grid";
                     game_1_window__game__4.style.display = "grid";
                 }, 1000);
 
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
                             game_1__game__3__divs[i].style.opacity = "1";
                             game_1__game__4__divs[i].style.opacity = "1";
-                        }, 1100 + i*100);
+                        }, 1100 + i * 100);
                     })(i++)
                 }
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
-                            game_1__game__5__divs[9-i].style.opacity = "0";
-                            game_1__game__6__divs[9-i].style.opacity = "0";
-                        }, i*100);
+                            game_1__game__5__divs[9 - i].style.opacity = "0";
+                            game_1__game__6__divs[9 - i].style.opacity = "0";
+                        }, i * 100);
                     })(i++)
                 }
-                if(levelTempo > level) {
-                    setTimeout(()=>{
+                if (levelTempo > level) {
+                    setTimeout(() => {
                         game_1_window__game__5.style.display = "none";
                         game_1_window__game__6.style.display = "none";
                     }, 1000);
-                    setTimeout(()=>{
+                    setTimeout(() => {
                         game_1_window__game.style.width = "412px";
                         game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 0 0";
                         game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 . .'";
@@ -691,36 +698,36 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_ETH.style.boxShadow = "0 0 7px 4px rgb(58, 235, 126)";
                 game1_ETH.style.border = "none";
                 game1_ETH.style.transform = "scale(1.2)";
-                
-                setTimeout(()=>{
+
+                setTimeout(() => {
                     game_1_window__game__3.style.display = "grid";
                     game_1_window__game__4.style.display = "grid";
                     game_1_window__game__5.style.display = "grid";
                 }, 1000);
 
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
                             game_1__game__3__divs[i].style.opacity = "1";
                             game_1__game__4__divs[i].style.opacity = "1";
                             game_1__game__5__divs[i].style.opacity = "1";
-                        }, 1100 + i*100);
+                        }, 1100 + i * 100);
                     })(i++)
                 }
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
-                            game_1__game__6__divs[9-i].style.opacity = "0";
-                        }, i*100);
+                            game_1__game__6__divs[9 - i].style.opacity = "0";
+                        }, i * 100);
                     })(i++)
                 }
-                if(levelTempo > level) {
-                    setTimeout(()=>{
+                if (levelTempo > level) {
+                    setTimeout(() => {
                         game_1_window__game__6.style.display = "none";
                     }, 1000);
-                    setTimeout(()=>{
+                    setTimeout(() => {
                         game_1_window__game.style.width = "508px";
                         game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 76px 0";
                         game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 .'";
@@ -751,7 +758,7 @@ function game_1_levelsChanger(level = levelTempo) {
                 game1_BTC.style.border = "none";
                 game1_BTC.style.transform = "scale(1.2)";
 
-                setTimeout(()=>{
+                setTimeout(() => {
                     game_1_window__game__3.style.display = "grid";
                     game_1_window__game__4.style.display = "grid";
                     game_1_window__game__5.style.display = "grid";
@@ -759,18 +766,18 @@ function game_1_levelsChanger(level = levelTempo) {
                 }, 1000);
 
                 i = 0;
-                while(i < 10) {
-                    (function(i) {
+                while (i < 10) {
+                    (function (i) {
                         setTimeout(() => {
                             game_1__game__3__divs[i].style.opacity = "1";
                             game_1__game__4__divs[i].style.opacity = "1";
                             game_1__game__5__divs[i].style.opacity = "1";
                             game_1__game__6__divs[i].style.opacity = "1";
-                        }, 1100 + i*100);
+                        }, 1100 + i * 100);
                     })(i++)
                 }
-                if(levelTempo > level) {
-                    setTimeout(()=>{
+                if (levelTempo > level) {
+                    setTimeout(() => {
                         game_1_window__game.style.width = "604px";
                         game_1_window__game.style.gridTemplate = "auto / 76px 76px 76px 76px 76px 76px";
                         game_1_window__game.style.gridTemplateAreas = "'game_1_window__game__1 game_1_window__game__2 game_1_window__game__3 game_1_window__game__4 game_1_window__game__5 game_1_window__game__6'";
@@ -796,12 +803,13 @@ function game_1_levelsChanger(level = levelTempo) {
                 break;
         }
         levelTempo = level;
-        setTimeout(()=>{
+        setTimeout(() => {
             canSwapLvl = true;
         }, 2000);
     }, 100);
 }
 
+let __game1_column_complete = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function itemsCleaner() {
     let i = 0;
@@ -838,55 +846,60 @@ function itemsCleaner() {
 
         game_1_column6_text[i].style.fontSize = "0";
         game_1_column6[i].style.backgroundColor = "#1396cb";
+
+        __game1_column_complete[i] = 0;
+
         i++;
     }
 }
 
-
-let __game1_column_complete = [0,0,0,0,0,0,0,0,0,0];
 let columnStep = 1;
 let canStart = false;
 
 function gameStep(num1, num2) {
-    game1_playBtn.innerHTML = "ЗАБРАТЬ";
-    if(num2 !== columnStep || !gameover || canStart) {
+    if (num2 !== columnStep || !gameover || canStart || !isGameRunnin) {
         return;
     }
-
     game1_playBtn.style.cursor = "pointer";
 
-    if(num2 === columnStep) {
-        __game1_column_complete[columnStep] = 1;
-        game_1_column1_text[columnStep-1].style.fontSize = "20px";
-        game_1_column2_text[columnStep-1].style.fontSize = "20px";
-        game_1_column3_text[columnStep-1].style.fontSize = "20px";
-        game_1_column4_text[columnStep-1].style.fontSize = "20px";
-        game_1_column5_text[columnStep-1].style.fontSize = "20px";
-        game_1_column6_text[columnStep-1].style.fontSize = "20px";
+    if (num2 === columnStep) {
+        __game1_column_complete[columnStep-1] = 1;
+        game_1_column1_text[columnStep - 1].style.fontSize = "20px";
+        game_1_column2_text[columnStep - 1].style.fontSize = "20px";
+        game_1_column3_text[columnStep - 1].style.fontSize = "20px";
+        game_1_column4_text[columnStep - 1].style.fontSize = "20px";
+        game_1_column5_text[columnStep - 1].style.fontSize = "20px";
+        game_1_column6_text[columnStep - 1].style.fontSize = "20px";
         columnStep++;
     }
 
-    if(num1 === 1 && game_1_column1_text[num2-1].innerHTML === "x") {
+    if (num1 === 1 && game_1_column1_text[num2 - 1].innerHTML === "x") {
         game1_playBtn.innerHTML = "ИГРАТЬ";
         canStart = true;
+
+        isGaveOver = true;
+        setTimeout(() => {
+            isGaveOver = false;
+        }, 1500)
+
         let m = 0;
-        while(m < 10) {
-            (function(m){
-                setTimeout(()=>{
+        while (m < 10) {
+            (function (m) {
+                setTimeout(() => {
                     game_1_allCofs[m].style.textShadow = "none";
-                }, m*50)
+                }, m * 50)
             })(m++)
         }
 
-        game_1_column1[num2-1].style.backgroundColor = "#dd2121";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        game_1_column1[num2 - 1].style.backgroundColor = "#dd2121";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
         let j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.transform = "rotateX(360deg)";
                     game_1_column2[j].style.transform = "rotateX(360deg)";
@@ -898,8 +911,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.backgroundColor = "transparent";
                     game_1_column2[j].style.backgroundColor = "transparent";
@@ -911,8 +924,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1_text[j].style.fontSize = "20px";
                     game_1_column2_text[j].style.fontSize = "20px";
@@ -923,39 +936,45 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = false;
             canStart = false;
-        },1500);
-    } else if(num1 === 1 && game_1_column1_text[num2-1].innerHTML !== "x") {
-        game_1_column1[num2-1].style.backgroundColor = "#3aeb7e";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        }, 1500);
+    } else if (num1 === 1 && game_1_column1_text[num2 - 1].innerHTML !== "x") {
+        game_1_column1[num2 - 1].style.backgroundColor = "#3aeb7e";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
     }
-    if(num1 === 2 && game_1_column2_text[num2-1].innerHTML === "x") {
+    if (num1 === 2 && game_1_column2_text[num2 - 1].innerHTML === "x") {
         game1_playBtn.innerHTML = "ИГРАТЬ";
         canStart = true;
+
+        isGaveOver = true;
+        setTimeout(() => {
+            isGaveOver = false;
+        }, 1500)
+
         let m = 0;
-        while(m < 10) {
-            (function(m){
-                setTimeout(()=>{
+        while (m < 10) {
+            (function (m) {
+                setTimeout(() => {
                     game_1_allCofs[m].style.textShadow = "none";
-                }, m*50)
+                }, m * 50)
             })(m++)
         }
 
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "#dd2121";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "#dd2121";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
         let j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.transform = "rotateX(360deg)";
                     game_1_column2[j].style.transform = "rotateX(360deg)";
@@ -967,8 +986,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.backgroundColor = "transparent";
                     game_1_column2[j].style.backgroundColor = "transparent";
@@ -980,8 +999,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1_text[j].style.fontSize = "20px";
                     game_1_column2_text[j].style.fontSize = "20px";
@@ -992,39 +1011,45 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = false;
             canStart = false;
-        },1500);
-    } else if(num1 === 2 && game_1_column2_text[num2-1].innerHTML !== "x") {
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "#3aeb7e";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        }, 1500);
+    } else if (num1 === 2 && game_1_column2_text[num2 - 1].innerHTML !== "x") {
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "#3aeb7e";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
     }
-    if(num1 === 3 && game_1_column3_text[num2-1].innerHTML === "x") {
+    if (num1 === 3 && game_1_column3_text[num2 - 1].innerHTML === "x") {
         game1_playBtn.innerHTML = "ИГРАТЬ";
         canStart = true;
+
+        isGaveOver = true;
+        setTimeout(() => {
+            isGaveOver = false;
+        }, 1500)
+
         let m = 0;
-        while(m < 10) {
-            (function(m){
-                setTimeout(()=>{
+        while (m < 10) {
+            (function (m) {
+                setTimeout(() => {
                     game_1_allCofs[m].style.textShadow = "none";
-                }, m*50)
+                }, m * 50)
             })(m++)
         }
 
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "#dd2121";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "#dd2121";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
         let j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.transform = "rotateX(360deg)";
                     game_1_column2[j].style.transform = "rotateX(360deg)";
@@ -1036,8 +1061,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.backgroundColor = "transparent";
                     game_1_column2[j].style.backgroundColor = "transparent";
@@ -1049,8 +1074,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1_text[j].style.fontSize = "20px";
                     game_1_column2_text[j].style.fontSize = "20px";
@@ -1061,39 +1086,45 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = false;
             canStart = false;
-        },1500);
-    } else if(num1 === 3 && game_1_column3_text[num2-1].innerHTML !== "x") {
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "#3aeb7e";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        }, 1500);
+    } else if (num1 === 3 && game_1_column3_text[num2 - 1].innerHTML !== "x") {
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "#3aeb7e";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
     }
-    if(num1 === 4 && game_1_column4_text[num2-1].innerHTML === "x") {
+    if (num1 === 4 && game_1_column4_text[num2 - 1].innerHTML === "x") {
         game1_playBtn.innerHTML = "ИГРАТЬ";
         canStart = true;
+
+        isGaveOver = true;
+        setTimeout(() => {
+            isGaveOver = false;
+        }, 1500)
+
         let m = 0;
-        while(m < 10) {
-            (function(m){
-                setTimeout(()=>{
+        while (m < 10) {
+            (function (m) {
+                setTimeout(() => {
                     game_1_allCofs[m].style.textShadow = "none";
-                }, m*50)
+                }, m * 50)
             })(m++)
         }
 
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "#dd2121";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "#dd2121";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
         let j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.transform = "rotateX(360deg)";
                     game_1_column2[j].style.transform = "rotateX(360deg)";
@@ -1105,8 +1136,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.backgroundColor = "transparent";
                     game_1_column2[j].style.backgroundColor = "transparent";
@@ -1118,8 +1149,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1_text[j].style.fontSize = "20px";
                     game_1_column2_text[j].style.fontSize = "20px";
@@ -1130,39 +1161,45 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = false;
             canStart = false;
-        },1500);
-    } else if(num1 === 4 && game_1_column4_text[num2-1].innerHTML !== "x") {
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "#3aeb7e";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        }, 1500);
+    } else if (num1 === 4 && game_1_column4_text[num2 - 1].innerHTML !== "x") {
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "#3aeb7e";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
     }
-    if(num1 === 5 && game_1_column5_text[num2-1].innerHTML === "x") {
+    if (num1 === 5 && game_1_column5_text[num2 - 1].innerHTML === "x") {
         game1_playBtn.innerHTML = "ИГРАТЬ";
         canStart = true;
+
+        isGaveOver = true;
+        setTimeout(() => {
+            isGaveOver = false;
+        }, 1500)
+
         let m = 0;
-        while(m < 10) {
-            (function(m){
-                setTimeout(()=>{
+        while (m < 10) {
+            (function (m) {
+                setTimeout(() => {
                     game_1_allCofs[m].style.textShadow = "none";
-                }, m*50)
+                }, m * 50)
             })(m++)
         }
 
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "#dd2121";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "#dd2121";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
         let j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.transform = "rotateX(360deg)";
                     game_1_column2[j].style.transform = "rotateX(360deg)";
@@ -1174,8 +1211,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.backgroundColor = "transparent";
                     game_1_column2[j].style.backgroundColor = "transparent";
@@ -1187,8 +1224,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1_text[j].style.fontSize = "20px";
                     game_1_column2_text[j].style.fontSize = "20px";
@@ -1199,39 +1236,45 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = false;
             canStart = false;
-        },1500);
-    } else if(num1 === 5 && game_1_column5_text[num2-1].innerHTML !== "x") {
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "#3aeb7e";
-        game_1_column6[num2-1].style.backgroundColor = "transparent";
+        }, 1500);
+    } else if (num1 === 5 && game_1_column5_text[num2 - 1].innerHTML !== "x") {
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "#3aeb7e";
+        game_1_column6[num2 - 1].style.backgroundColor = "transparent";
     }
-    if(num1 === 6 && game_1_column6_text[num2-1].innerHTML === "x") {
+    if (num1 === 6 && game_1_column6_text[num2 - 1].innerHTML === "x") {
         game1_playBtn.innerHTML = "ИГРАТЬ";
         canStart = true;
+
+        isGaveOver = true;
+        setTimeout(() => {
+            isGaveOver = false;
+        }, 1500)
+
         let m = 0;
-        while(m < 10) {
-            (function(m){
-                setTimeout(()=>{
+        while (m < 10) {
+            (function (m) {
+                setTimeout(() => {
                     game_1_allCofs[m].style.textShadow = "none";
-                }, m*50)
+                }, m * 50)
             })(m++)
         }
 
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "#dd2121";
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "#dd2121";
         let j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.transform = "rotateX(360deg)";
                     game_1_column2[j].style.transform = "rotateX(360deg)";
@@ -1243,8 +1286,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1[j].style.backgroundColor = "transparent";
                     game_1_column2[j].style.backgroundColor = "transparent";
@@ -1256,8 +1299,8 @@ function gameStep(num1, num2) {
             })(j++)
         }
         j = num2;
-        while(j < 10) {
-            (function(j) {
+        while (j < 10) {
+            (function (j) {
                 setTimeout(() => {
                     game_1_column1_text[j].style.fontSize = "20px";
                     game_1_column2_text[j].style.fontSize = "20px";
@@ -1268,16 +1311,16 @@ function gameStep(num1, num2) {
                 }, 300 + j * 100);
             })(j++)
         }
-        setTimeout(()=>{
+        setTimeout(() => {
             gameover = false;
             canStart = false;
-        },1500);
-    } else if(num1 === 6 && game_1_column6_text[num2-1].innerHTML !== "x") {
-        game_1_column1[num2-1].style.backgroundColor = "transparent";
-        game_1_column2[num2-1].style.backgroundColor = "transparent";
-        game_1_column3[num2-1].style.backgroundColor = "transparent";
-        game_1_column4[num2-1].style.backgroundColor = "transparent";
-        game_1_column5[num2-1].style.backgroundColor = "transparent";
-        game_1_column6[num2-1].style.backgroundColor = "#3aeb7e";
+        }, 1500);
+    } else if (num1 === 6 && game_1_column6_text[num2 - 1].innerHTML !== "x") {
+        game_1_column1[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column2[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column3[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column4[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column5[num2 - 1].style.backgroundColor = "transparent";
+        game_1_column6[num2 - 1].style.backgroundColor = "#3aeb7e";
     }
 }
