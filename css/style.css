@@ -17,9 +17,7 @@
 
 
 body {
-    background-image: url("../imgs/background.jpg");
-    background-size: cover;
-    background-position: center;
+    background: url("../imgs/background.jpg") center / cover, #1c1d1f;
     color: white;
 }
 
@@ -1291,15 +1289,17 @@ header {
     width: 100%;
     grid-area: playBtn;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #betsLocation__table__play button {
     border: 1px solid  #1396cb;
     box-shadow: 0 0 7px 2px #1396cb;
-    width: 60%;
+    min-width: 230px;
     height: 70px;
     color: white;
     padding: 10px 10px 10px 18px;
-    margin: 0 20%;
     transition: all 0.3s;
     cursor: pointer;
     font-size: 28px;
@@ -1310,9 +1310,19 @@ header {
     background-color: #1c1d1f;
     position: relative;
 }
-#betsLocation__table__play button:hover {
-    transform: scale(1.1);
-    transition: all 0.3s;
+@keyframes btnJump {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.7);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 #betsLocation__chips img {
     width: 40px;
