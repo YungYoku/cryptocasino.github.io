@@ -431,13 +431,14 @@ function game_1_levelsChanger(level = levelTempo) {
     let i = 0;
 
     columnStep = 1;
+    isGameRunnin = false;
 
 
     if (levelTempo !== level) {
         gameover = false;
         setTimeout(() => {
             gameover = true;
-        }, 700);
+        }, 2000);
     } else {
         gameover = true;
     }
@@ -794,10 +795,10 @@ function itemsCleaner() {
 }
 
 function gameStep(num1, num2) {
-    debugger
     if (num2 !== columnStep || canStart || !isGameRunnin || !gameover) {
         return;
     }
+    debugger
     game1_playBtn.style.cursor = "pointer";
 
     if (num2 === columnStep) {
@@ -877,6 +878,7 @@ function gameStep(num1, num2) {
         setTimeout(() => {
             gameover = false;
             canStart = false;
+            canSwapLvl = true;
         }, 1500);
     } else if (num1 === 1 && game_1_column1_text[num2 - 1].innerHTML !== "x") {
         game_1_column1[num2 - 1].style.backgroundColor = "#3aeb7e";
@@ -952,6 +954,7 @@ function gameStep(num1, num2) {
         setTimeout(() => {
             gameover = false;
             canStart = false;
+            canSwapLvl = true;
         }, 1500);
     } else if (num1 === 2 && game_1_column2_text[num2 - 1].innerHTML !== "x") {
         game_1_column1[num2 - 1].style.backgroundColor = "transparent";
@@ -1027,6 +1030,7 @@ function gameStep(num1, num2) {
         setTimeout(() => {
             gameover = false;
             canStart = false;
+            canSwapLvl = true;
         }, 1500);
     } else if (num1 === 3 && game_1_column3_text[num2 - 1].innerHTML !== "x") {
         game_1_column1[num2 - 1].style.backgroundColor = "transparent";
@@ -1102,6 +1106,7 @@ function gameStep(num1, num2) {
         setTimeout(() => {
             gameover = false;
             canStart = false;
+            canSwapLvl = true;
         }, 1500);
     } else if (num1 === 4 && game_1_column4_text[num2 - 1].innerHTML !== "x") {
         game_1_column1[num2 - 1].style.backgroundColor = "transparent";
@@ -1177,6 +1182,7 @@ function gameStep(num1, num2) {
         setTimeout(() => {
             gameover = false;
             canStart = false;
+            canSwapLvl = true;
         }, 1500);
     } else if (num1 === 5 && game_1_column5_text[num2 - 1].innerHTML !== "x") {
         game_1_column1[num2 - 1].style.backgroundColor = "transparent";
@@ -1252,6 +1258,7 @@ function gameStep(num1, num2) {
         setTimeout(() => {
             gameover = false;
             canStart = false;
+            canSwapLvl = true;
         }, 1500);
     } else if (num1 === 6 && game_1_column6_text[num2 - 1].innerHTML !== "x") {
         game_1_column1[num2 - 1].style.backgroundColor = "transparent";
@@ -1264,7 +1271,6 @@ function gameStep(num1, num2) {
 }
 
 game1_playBtn.onclick = function () {
-    debugger
     if (game1_playBtn.innerHTML === "ИГРАТЬ" && __game1_column_complete[0] !== 0 && !isGaveOver) {
         itemsCleaner();
         canSwapLvl = false;
@@ -1297,7 +1303,6 @@ game1_playBtn.onclick = function () {
         }
 
         columnStep = 1;
-        game_1_levelsChanger();
     }
     if (game1_playBtn.innerHTML === "ЗАБРАТЬ" && isGameRunnin && __game1_column_complete[0] !== 0 && !isBtnClicked && !isGaveOver) {
         canSwapLvl = true;
@@ -1317,6 +1322,7 @@ game1_playBtn.onclick = function () {
         audio.autoplay = true;
 
         columnStep = 1;
+        debugger
         itemsCleaner();
         isGameRunnin = false;
 
@@ -1358,6 +1364,5 @@ game1_playBtn.onclick = function () {
         }
 
         columnStep = 1;
-        game_1_levelsChanger();
     }
 }
