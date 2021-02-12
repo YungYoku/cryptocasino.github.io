@@ -1257,11 +1257,12 @@ header {
     grid-area: deskOptions;
 }
 #betsLocation__table__options div {
+    background: #1c1d1f;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 1px solid  #13cb1c;
-    box-shadow: 0 0 9px 2px #13cb1c;
+    box-shadow: 0 0 7px 1.5px #13cb1c;
     margin: 15px auto;
     text-align: center;
     padding: 15px 0 0 0;
@@ -1269,7 +1270,7 @@ header {
     cursor: default;
     padding-top: 15px;
     font-size: 24px;
-    color: #1396cb;
+    color: white;
 }
 #betsLocation__table__options div img {
     width: 30px;
