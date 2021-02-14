@@ -430,6 +430,10 @@ function game_1_levelsChanger(level = levelTempo) {
     }
     let i = 0;
 
+    let audio = new Audio();
+    audio.src = 'imgs/game1_levelChange.mp3';
+    audio.autoplay = true;
+
     columnStep = 1;
     isGameRunnin = false;
 
@@ -752,6 +756,19 @@ function game_1_levelsChanger(level = levelTempo) {
 
 let __game1_column_complete = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
+function transitionSetter() {
+    let i = 0;
+    while (i < 10) {
+        game_1_column1[i].style.transition = "transform 2s"
+        game_1_column2[i].style.transition = "transform 2s"
+        game_1_column3[i].style.transition = "transform 2s"
+        game_1_column4[i].style.transition = "transform 2s"
+        game_1_column5[i].style.transition = "transform 2s"
+        game_1_column6[i].style.transition = "transform 2s"
+        i++;
+    }
+}
+
 function itemsCleaner() {
     let i = 0;
     while (i < 10) {
@@ -794,11 +811,12 @@ function itemsCleaner() {
     }
 }
 
+let cofsEnd = false;
+
 function gameStep(num1, num2) {
-    if (num2 !== columnStep || canStart || !isGameRunnin || !gameover) {
+    if (num2 !== columnStep || canStart || !isGameRunnin || !gameover || !cofsEnd) {
         return;
     }
-    debugger
     game1_playBtn.style.cursor = "pointer";
 
     if (num2 === columnStep) {
@@ -1270,9 +1288,50 @@ function gameStep(num1, num2) {
     }
 }
 
+function coeffChange() {
+    let rand = Math.floor(Math.random() * 8);
+    let coeff = document.querySelector("#coefficient");
+    switch (rand) {
+        case 0:
+            coeff.innerHTML = 'x1';
+            break;
+        case 1:
+            coeff.innerHTML = 'x2';
+            break;
+        case 2:
+            coeff.innerHTML = 'x3';
+            break;
+        case 3:
+            coeff.innerHTML = 'x5';
+            break;
+        case 4:
+            coeff.innerHTML = 'x7';
+            break;
+        case 5:
+            coeff.innerHTML = 'x10';
+            break;
+        case 6:
+            coeff.innerHTML = 'x20';
+            break;
+        case 7:
+            coeff.innerHTML = 'x25';
+            break;
+        case 8:
+            coeff.innerHTML = 'x50';
+            break;
+        case 9:
+            coeff.innerHTML = 'x100';
+            break;
+    }
+}
+
 game1_playBtn.onclick = function () {
     if (game1_playBtn.innerHTML === "ИГРАТЬ" && __game1_column_complete[0] !== 0 && !isGaveOver) {
         itemsCleaner();
+        setTimeout(() => {
+            transitionSetter();
+        }, 1100);
+        coeffChange();
         canSwapLvl = false;
         isBtnClicked = true;
         setTimeout(() => {
@@ -1303,6 +1362,7 @@ game1_playBtn.onclick = function () {
         }
 
         columnStep = 1;
+        gameRandSpawn(levelTempo, game_1_column1_text, game_1_column2_text, game_1_column3_text, game_1_column4_text, game_1_column5_text, game_1_column6_text);
     }
     if (game1_playBtn.innerHTML === "ЗАБРАТЬ" && isGameRunnin && __game1_column_complete[0] !== 0 && !isBtnClicked && !isGaveOver) {
         canSwapLvl = true;
@@ -1335,6 +1395,10 @@ game1_playBtn.onclick = function () {
             })(i++)
         }
     } else if (!isBtnClicked && game1_playBtn.style.cursor !== "not-allowed" && !isGaveOver) {
+        setTimeout(() => {
+            transitionSetter();
+        }, 1100);
+        coeffChange();
         canSwapLvl = false;
         isBtnClicked = true;
         setTimeout(() => {
@@ -1359,10 +1423,15 @@ game1_playBtn.onclick = function () {
             (function (i) {
                 setTimeout(() => {
                     game_1_allCofs[i].style.textShadow = "1px 0 5px purple, 0 1px 5px purple, -1px 0 5px purple, 0 -1px 5px purple";
-                }, i * 50)
+                }, i * 100)
             })(i++)
         }
 
+        setTimeout(() => {
+            cofsEnd = true;
+        }, 1000)
+
         columnStep = 1;
+        gameRandSpawn(levelTempo, game_1_column1_text, game_1_column2_text, game_1_column3_text, game_1_column4_text, game_1_column5_text, game_1_column6_text);
     }
 }
